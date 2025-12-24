@@ -244,42 +244,83 @@ Supervisor: Dr. Daniela Centenaro Levandowski
 
 "Eu te amo" (2018) [https://poieticalab.itch.io/eu-te-amo](https://poieticalab.itch.io/eu-te-amo)
 
-## Workshops and Professional Development
+## Service
 
-**How to Create StoryMaps Using Leaflet and OpenStreetMaps** — University of Miami, 2025
-Workshop offered in SPA 310 — Sephardic Literature.
-*Supervised by Dr. Shai Cohen*
+### Thesis Supervision
 
-**How to Use CollectionBuilder** — University of Miami, 2025
-Workshop offered in the Digital Humanities Interdisciplinary Research Group.
-*Supervised by Dr. Susanna Allés-Torrent; Co-facilitated with Elizabeth Cornick*
+**Co-advisor** for Camila Maurer, Federal University of Health Sciences of Porto Alegre, Brazil (2024–2025)
+    - *"Nomenclaturas de Parentalidade e Gênero em Perspectivas Trans e Não-Binárias" [Parenthood and Gender Nomenclatures in Trans and Non-Binary Perspectives]*
+    - Bachelor Thesis in Psychology. Chair: Dr. Daniela Centenaro Levandowski
 
-**Open-Source StoryMaps using Leaflet and OpenStreetMaps** — University of Miami, 2025
-Workshop offered in the Digital Humanities Interdisciplinary Research Group.
-*Supervised by Dr. Susanna Allés-Torrent; Co-facilitated with Elizabeth Cornick*
+**Co-advisor** for Eduarda Meireles, Federal University of Health Sciences of Porto Alegre, Brazil (2023–2024)
+    - *"Trajetórias rumo à parentalidade: experiências de pessoas trans e não binárias" [Trajectories Toward Parenthood: The Experience of Trans and Non-Binary People]*
+    - Bachelor Thesis in Psychology. Chair: Dr. Daniela Centenaro Levandowski
 
-**Data Literacy: R Language and Statistics Basics** — University of Miami, 2025
-Workshop offered in the Digital Humanities Interdisciplinary Research Group.
-*Supervised by Dr. Susanna Allés-Torrent; Co-facilitated with Elizabeth Cornick*
 
-**Data Literacy: Understanding Association and Causation in Data** — University of Miami, 2025
-Workshop offered in the Digital Humanities Interdisciplinary Research Group.
-*Supervised by Dr. Susanna Allés-Torrent; Co-facilitated with Elizabeth Cornick*
+### University Service
 
-**Introduction to Semantic Search with Semantra** — University of Miami, 2024
-Workshop offered in the Department of Modern Languages and Literatures's Lecture Series
+**Co-convenor, Digital Humanities Interdisciplinary Research Group**, University of Miami (August 2025–present)
+    - With Elizabeth Cornick and Dr. Susanna Allés-Torrent
 
-**Introduction to Markdown** — University of Miami, 2024
-Workshop offered in the Digital Humanities Interdisciplinary Research Group.
-*Supervised by Dr. Susanna Allés-Torrent; Co-facilitated with Elizabeth Cornick and Michael Soriano*
+**Co-convenor, Digital Humanities Interdisciplinary Research Group**, University of Miami (August 2024–April 2025)
+    - With Elizabeth Cornick, Michael Soriano, and Dr. Susanna Allés-Torrent
 
-**Introduction to GitHub + GitHub Pages** — University of Miami, 2024
-Workshop offered in the Digital Humanities Interdisciplinary Research Group.
-*Supervised by Dr. Susanna Allés-Torrent; Co-facilitated with Elizabeth Cornick and Michael Soriano*
+**Co-convenor, Queer Studies Interdisciplinary Research Group**, University of Miami (August 2023–April 2024)
+    - With Elizabeth Cornick
 
-**Pajubá 101** — University of Miami, 2023
-Workshop offered in POR 699 — Topics in Luso-Brazilian Cultures: LGBTQIA+ Brazil.
-*Supervised by Dr. Steven Butterman*
+
+### Professional Development
+
+**How to Create StoryMaps Using Leaflet and OpenStreetMaps.**, University of Miami (April 8, 2025)
+    - Workshop offered in SPA 310 — Sephardic Literature, under supervision of Dr. Shai Cohen.
+
+**How to Use CollectionBuilder**, University of Miami (April 16, 2025)
+    - Workshop offered in the Digital Humanities Interdisciplinary Research Group. With Elizabeth Cornick.
+
+**Open-Source StoryMaps using Leaflet and OpenStreetMaps**, University of Miami (February 19, 2025)
+    - Workshop offered in the Digital Humanities Interdisciplinary Research Group. With Elizabeth Cornick.
+
+**Data Literacy: R Language and Statistics Basics**, University of Miami (February 5, 2025)
+    - Workshop offered in the Digital Humanities Interdisciplinary Research Group. With Elizabeth Cornick.
+
+**Data Literacy: Understanding Association and Causation in Data**, University of Miami (March 5, 2025)
+    - Workshop offered in the Digital Humanities Interdisciplinary Research Group. With Elizabeth Cornick.
+
+**Introduction to Semantic Search with Semantra**, University of Miami (April 5, 2024)
+    - Workshop offered in the Department of Modern Languages and Literatures Lecture Series.
+
+**Introduction to Markdown**, University of Miami (October 16, 2024)
+    - Workshop offered in the Digital Humanities Interdisciplinary Research Group. With Elizabeth Cornick and Michael Soriano.
+
+**Introduction to GitHub + GitHub Pages**, University of Miami (November 6, 2024)
+    - Workshop offered in the Digital Humanities Interdisciplinary Research Group. With Elizabeth Cornick and Michael Soriano.
+
+**Pajubá 101**, University of Miami (February 28, 2023)
+    - Workshop offered in POR 699 — Topics in Luso-Brazilian Cultures: LGBTQIA+ Brazil, under supervision of Dr. Steven Butterman
+
+
+### Community Engagement
+
+**Volunteer Psychologist**, NGO SOMOS, Brazil (2021–2022)
+
+**Psychology Intern**, Working Group GTênero, Clinic of Psychological Care of the Federal University of Rio Grande do Sul, Brazil (2020–2021)
+
+
+---
+
+## Professional Memberships
+
+**Regional Council of Psychology of Rio Grande do Sul, Brazil** (Psychologist, #35206), 2021–present
+
+**Latin American Studies Association** (Member), 2025–present, 2024–present
+
+**Society for Cinema and Media Studies** (Member), 2025–present
+
+**Modern Languages Association** (Member), 2024–2025
+
+**Núcleo de Pesquisa em Psicanálise e Educação [Research Group on Psychoanalysis, Education, and Culture], Federal University of Rio Grande do Sul** (Undergraduate Research Assistant), 2016–2017
+
+**Núcleo de Pesquisa em Psicanálise e Cinema [Research Group on Psychoanalysis and Cinema]** (Undergraduate Research Assistant), 2017–2021
 
 ---
 
@@ -287,15 +328,15 @@ Workshop offered in POR 699 — Topics in Luso-Brazilian Cultures: LGBTQIA+ Braz
 
 **Portuguese**: Native
 
+**Pajubá**: Advanced
+
 **English**: Advanced
 
 **Spanish**: Advanced
-
-**Pajubá**: Advanced
 
 **French**: Reading Proficiency
 
 ---
 
-*Last updated: October 2025*
+*Last updated: December 2025*
 

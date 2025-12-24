@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-### Peer-Reviewed Journal Articles
+## Peer-Reviewed Journal Articles
 
 1. Schneider, Karoline, Stumm, Euge Helyantus, Rocha, Roberta Zanini da, and Levandowski, Daniela Centenaro (2023). "Innovative Practices in Developmental Psychology Teaching". *Psicologia Escolar e Educacional*, 27: e242419. [https://doi.org/10.1590/2175-35392023-242419-T](https://doi.org/10.1590/2175-35392023-242419-T)
 
@@ -15,7 +15,7 @@ author_profile: true
 
 4. Stumm, Euge Helyantus, and Weinmann, Amadeu de Oliveira (2019). "O Cinema como Criador de Próteses: Uma Análise Díldica de 'Os Rapazes das Calçadas'" [The Cinema as a Creator of Prostheses: A Dildic Analysis of 'The Guys of the Sidewalks']. *Revista Periódicus*, 1(11): 234–249. [https://doi.org/10.9771/peri.v1i11.29254](https://doi.org/10.9771/peri.v1i11.29254)
 
-### Book Chapters and Edited Volumes
+## Book Chapters and Edited Volumes
 
 1. Stumm, Euge Helyantus "Manifesto por uma Psicologia Pirata" [Manifesto Toward a Pirate Psychology]. *Gestos, Memórias e Narrativas da Escuta Clínica Permeada pela Tecnologia*, Regional Council of Psychology of Rio Grande do Sul, 2021, pp. 162–168. [https://www.crprs.org.br/conteudo/publicacoes/coletanea_CPCP_final.pdf](https://www.crprs.org.br/conteudo/publicacoes/coletanea_CPCP_final.pdf)
 

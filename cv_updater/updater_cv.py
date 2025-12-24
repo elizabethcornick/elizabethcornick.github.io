@@ -1,4 +1,5 @@
 import pandas as pd
+from pyparsing import Group
 import requests
 from io import BytesIO
 import re
@@ -1010,57 +1011,6 @@ def generate_research_section(data):
     
     return content
 
-def generate_workshops_section(data):
-    """Generate Workshops and Training section"""
-    content = "## Workshops and Professional Development\n\n"
-    
-    if 'Teaching' in data:
-        teaching_df = data['Teaching']
-        workshops_df = teaching_df[teaching_df['category'] == 'Workshop']
-        
-        if not workshops_df.empty:
-            # Sort by year (descending)
-            workshops_df = workshops_df.sort_values('year', ascending=False, na_position='last')
-            
-            for _, row in workshops_df.iterrows():
-                if row.get('course_title'):
-                    title = row['course_title']
-                    institution = row.get('institution', '')
-                    year = row.get('year', '')
-                    supervisor = row.get('supervisor', '')
-                    co_instructor = row.get('co_instructor', '')
-                    description = row.get('description', '')
-                    
-                    content += f"**{title}**"
-                    if institution and year:
-                        content += f" — {institution}, {format_date(year)}"
-                    elif institution:
-                        content += f" — {institution}"
-                    elif year:
-                        content += f" — {format_date(year)}"
-                    content += "\n"
-                    
-                    if description:
-                        content += f"{description}\n"
-                    
-                    details = []
-                    if supervisor:
-                        details.append(f"Supervised by {supervisor}")
-                    if co_instructor:
-                        details.append(f"Co-facilitated with {co_instructor}")
-                    
-                    if details:
-                        content += f"*{'; '.join(details)}*\n"
-                    
-                    content += "\n"
-        else:
-            content += "*No workshops recorded*\n\n"
-    else:
-        content += "*No workshops recorded*\n\n"
-    
-    content += "---\n\n"
-    return content
-
 def generate_languages_section(data):
     """Generate Languages section"""
     if 'Languages' not in data or data['Languages'].empty:
@@ -1089,48 +1039,246 @@ def generate_languages_section(data):
     return content
 
 def generate_service_section(data):
-    """Generate Academic Service section"""
+    """Generate Academic Service section with proper categorization"""
     if 'Service' not in data or data['Service'].empty:
         return ""
     
     service_df = data['Service']
     
     # Check if there are any valid service entries
-    has_valid_entries = any(row.get('position') for _, row in service_df.iterrows())
+    has_valid_entries = any(row.get('position') or row.get('role') for _, row in service_df.iterrows())
     if not has_valid_entries:
         return ""
     
-    content = "## Academic Service\n\n"
+    content = "## Service\n\n"
     
-    # Group by service type
-    service_types = [stype for stype in service_df['service_type'].unique() if stype]
+    # Define the order of service categories for academic CVs
+    category_order = [
+        'Thesis Supervision',
+        'University Service',
+        'Departmental Service',
+        'Professional Development',
+        'Teaching Workshops',
+        'Professional Service',
+        'Community Engagement',
+        'Editorial Service',
+        'Peer Review'
+    ]
     
-    for service_type in service_types:
-        content += f"### {service_type}\n\n"
+    # Sort by start_year within each category (descending)
+    service_df = service_df.sort_values('start_year', ascending=False, na_position='last')
+    
+    # Group by service_type if the column exists
+    if 'service_type' in service_df.columns and service_df['service_type'].notna().any():
+        # Get unique service types that exist in the data
+        existing_types = [stype for stype in category_order if stype in service_df['service_type'].values]
         
-        type_df = service_df[service_df['service_type'] == service_type]
+        # Add any types not in our predefined order at the end
+        other_types = [stype for stype in service_df['service_type'].unique() 
+                      if stype and stype not in category_order]
+        existing_types.extend(other_types)
         
-        for _, row in type_df.iterrows():
-            if row.get('position'):
-                position = row['position']
+        for service_type in existing_types:
+            type_df = service_df[service_df['service_type'] == service_type]
+            
+            if not type_df.empty:
+                content += f"### {service_type}\n\n"
+                
+                for _, row in type_df.iterrows():
+                    # Use either 'position' or 'role' field
+                    position = row.get('position') or row.get('role', '')
+                    
+                    if position:
+                        organization = row.get('organization', '')
+                        start_year = row.get('start_year', '')
+                        end_year = row.get('end_year', '')
+                        start_month = row.get('start_month', '')
+                        end_month = row.get('end_month', '')
+                        additional_years = row.get('additional_years', '')
+                        description = row.get('description', '')
+                        student_name = row.get('student_name', '')
+                        thesis_title = row.get('thesis_title', '')
+                        chair = row.get('chair', '')
+                        workshop_title = row.get('workshop_title', '')
+                        course_code = row.get('course_code', '')
+                        single_year = row.get('single_year', '')
+                        single_month = row.get('single_month', '')
+                        single_day = row.get('single_day', '')
+                        
+                        # For workshops, use workshop_title as the main heading if available
+                        if workshop_title:
+                            content += f"**{workshop_title}**"
+                        else:
+                            content += f"**{position}**"
+                        
+                        # For thesis supervision, show student name in the main line
+                        if service_type == 'Thesis Supervision' and student_name:
+                            content += f" for {student_name}"
+                        
+                        if organization:
+                            content += f", {organization}"
+                        
+                        # Check if this is a single date entry
+                        if single_year:
+                            date_str = ""
+                            
+                            # Build single date string
+                            if single_month:
+                                date_str = f"{single_month}"
+                                if single_day:
+                                    # Convert single_day to int to remove decimal
+                                    try:
+                                        day_int = int(float(single_day))
+                                        date_str += f" {day_int},"
+                                    except (ValueError, TypeError):
+                                        date_str += f" {single_day},"
+                                date_str += f" {format_date(single_year)}"
+                            else:
+                                date_str = format_date(single_year)
+                            
+                            content += f" ({date_str}"
+                            
+                            # Add chair/main advisor in parentheses for thesis supervision
+                            if service_type == 'Thesis Supervision' and chair:
+                                content += f", Chair: {chair}"
+                            
+                            content += ")"
+                        elif start_year:
+                            # Use date range logic
+                            date_str = ""
+                            
+                            # Format start date
+                            if start_month:
+                                date_str = f"{start_month} {format_date(start_year)}"
+                            else:
+                                date_str = format_date(start_year)
+                            
+                            # Handle end date if different from start
+                            if end_year and end_year != start_year:
+                                if end_month:
+                                    date_str += f"–{end_month} {format_date(end_year)}"
+                                else:
+                                    date_str += f"–{format_date(end_year)}"
+                            elif end_month and end_month != start_month and end_year == start_year:
+                                # Same year but different months
+                                date_str += f"–{end_month} {format_date(end_year)}"
+                            elif not end_year and not end_month:
+                                # Ongoing position
+                                date_str += "–present"
+                            
+                            # Add additional non-consecutive years if provided
+                            if additional_years:
+                                date_str += f", {additional_years}"
+                            
+                            content += f" ({date_str}"
+                            
+                            # Add chair/main advisor in parentheses for thesis supervision
+                            if service_type == 'Thesis Supervision' and chair:
+                                content += f", Chair: {chair}"
+                            
+                            content += ")"
+                        content += "\n"
+                        
+                        # For thesis supervision, show thesis title as bullet point
+                        if service_type == 'Thesis Supervision' and thesis_title:
+                            content += f"    - *{thesis_title}*\n"
+                        
+                        # Description
+                        if description:
+                            content += f"    - {description}\n"
+                        
+                        content += "\n"
+                
+                content += "\n"
+    else:
+        # If no service_type column, list all services without grouping
+        for _, row in service_df.iterrows():
+            position = row.get('position') or row.get('role', '')
+            
+            if position:
                 organization = row.get('organization', '')
                 start_year = row.get('start_year', '')
                 end_year = row.get('end_year', '')
+                start_month = row.get('start_month', '')
+                end_month = row.get('end_month', '')
+                additional_years = row.get('additional_years', '')
                 description = row.get('description', '')
+                student_name = row.get('student_name', '')
+                thesis_title = row.get('thesis_title', '')
+                chair = row.get('chair', '')
+                workshop_title = row.get('workshop_title', '')
+                single_year = row.get('single_year', '')
+                single_month = row.get('single_month', '')
+                single_day = row.get('single_day', '')
                 
-                content += f"**{position}**"
+                # Use workshop_title if available
+                if workshop_title:
+                    content += f"**{workshop_title}**"
+                else:
+                    content += f"**{position}**"
+                
+                if student_name:
+                    content += f" for {student_name}"
+                
                 if organization:
                     content += f", {organization}"
                 
-                if start_year:
-                    if end_year and end_year != start_year:
-                        content += f" ({format_date(start_year)}–{format_date(end_year)})"
+                # Check if this is a single date entry
+                if single_year:
+                    date_str = ""
+                    
+                    if single_month:
+                        date_str = f"{single_month}"
+                        if single_day:
+                            try:
+                                day_int = int(float(single_day))
+                                date_str += f" {day_int},"
+                            except (ValueError, TypeError):
+                                date_str += f" {single_day},"
+                        date_str += f" {format_date(single_year)}"
                     else:
-                        content += f" ({format_date(start_year)})"
+                        date_str = format_date(single_year)
+                    
+                    content += f" ({date_str}"
+                    
+                    if chair:
+                        content += f", Chair: {chair}"
+                    
+                    content += ")"
+                elif start_year:
+                    date_str = ""
+                    
+                    if start_month:
+                        date_str = f"{start_month} {format_date(start_year)}"
+                    else:
+                        date_str = format_date(start_year)
+                    
+                    if end_year and end_year != start_year:
+                        if end_month:
+                            date_str += f"–{end_month} {format_date(end_year)}"
+                        else:
+                            date_str += f"–{format_date(end_year)}"
+                    elif end_month and end_month != start_month and end_year == start_year:
+                        date_str += f"–{end_month} {format_date(end_year)}"
+                    elif not end_year and not end_month:
+                        date_str += "–present"
+                    
+                    if additional_years:
+                        date_str += f", {additional_years}"
+                    
+                    content += f" ({date_str}"
+                    
+                    if chair:
+                        content += f", Chair: {chair}"
+                    
+                    content += ")"
                 content += "\n"
                 
+                if thesis_title:
+                    content += f"    - *{thesis_title}*\n"
+                
                 if description:
-                    content += f"{description}\n"
+                    content += f"    - {description}\n"
                 
                 content += "\n"
     
@@ -1138,38 +1286,59 @@ def generate_service_section(data):
     return content
 
 def generate_memberships_section(data):
-    """Generate Professional Memberships section"""
-    if 'Memberships' not in data or data['Memberships'].empty:
+    """Generate Professional Memberships section with support for multiple periods."""
+    if 'Memberships' not in data or data['Memberships']. empty:
         return ""
     
     memberships_df = data['Memberships']
     
     # Check if there are any valid membership entries
-    has_valid_entries = any(row.get('organization') for _, row in memberships_df.iterrows())
-    if not has_valid_entries:
+    has_valid_entries = any(row. get('organization') for _, row in memberships_df.iterrows())
+    if not has_valid_entries: 
         return ""
+    
+    # Group memberships by organization to handle multiple periods
+    memberships_by_org = {}
+    for _, row in memberships_df.iterrows():
+        organization = row.get('organization')
+        if organization: 
+            if organization not in memberships_by_org:
+                memberships_by_org[organization] = {
+                    'membership_type': row.get('membership_type', ''),
+                    'periods': []
+                }
+            
+            start_year = row.get('start_year', '')
+            end_year = row.get('end_year', '')
+            memberships_by_org[organization]['periods'].append({
+                'start':  start_year,
+                'end': end_year
+            })
     
     content = "## Professional Memberships\n\n"
     
-    for _, row in memberships_df.iterrows():
-        if row.get('organization'):
-            organization = row['organization']
-            start_year = row.get('start_year', '')
-            end_year = row.get('end_year', '')
-            membership_type = row.get('membership_type', '')
+    for organization, details in memberships_by_org. items():
+        content += f"**{organization}**"
+        
+        if details['membership_type']:
+            content += f" ({details['membership_type']})"
+        
+        # Format all periods for this organization
+        period_strings = []
+        for period in details['periods']:
+            start_year = period['start']
+            end_year = period['end']
             
-            content += f"**{organization}**"
-            
-            if membership_type:
-                content += f" ({membership_type})"
-            
-            if start_year:
+            if start_year: 
                 if end_year and end_year != start_year:
-                    content += f", {format_date(start_year)}–{format_date(end_year)}"
+                    period_strings.append(f"{format_date(start_year)}–{format_date(end_year)}")
                 else:
-                    content += f", {format_date(start_year)}–present"
-            
-            content += "\n"
+                    period_strings.append(f"{format_date(start_year)}–present")
+        
+        if period_strings: 
+            content += f", {', '. join(period_strings)}"
+        
+        content += "\n\n"
     
     content += "---\n\n"
     return content
@@ -1189,10 +1358,10 @@ def generate_cv_markdown(data):
     cv_content += generate_conferences_section(data)
     cv_content += generate_funded_research_section(data)
     cv_content += generate_research_section(data)
-    cv_content += generate_workshops_section(data)
-    cv_content += generate_languages_section(data)
     cv_content += generate_service_section(data)
     cv_content += generate_memberships_section(data)
+    cv_content += generate_languages_section(data)
+
 
     # Add last updated date
     current_date_last_updated = datetime.now().strftime("%B %Y")
@@ -1223,19 +1392,6 @@ def main():
         f.write(cv_content)
     
     print(f"Academic CV successfully generated and saved to {output_file}")
-    print("\nCV includes the following sections:")
-    print("1. Header")
-    print("2. Education")
-    print("3. Awards and Honors")
-    print("4. Publications")
-    print("5. Teaching Experience")
-    print("6. Conference Presentations")
-    print("7. Funded Research")
-    print("8. Projects")
-    print("9. Workshops and Professional Development")
-    print("10. Languages")
-    print("11. Academic Service")
-    print("12. Professional Memberships")
 
 if __name__ == "__main__":
     main()
