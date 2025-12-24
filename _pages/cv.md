@@ -320,7 +320,7 @@ Supervisor: Dr. Daniela Centenaro Levandowski
 
 **Núcleo de Pesquisa em Psicanálise e Educação [Research Group on Psychoanalysis, Education, and Culture], Federal University of Rio Grande do Sul** (Undergraduate Research Assistant), 2016–2017
 
-**Núcleo de Pesquisa em Psicanálise e Cinema [Research Group on Psychoanalysis and Cinema]** (Undergraduate Research Assistant), 2017–2021
+**Núcleo de Pesquisa em Psicanálise e Cinema [Research Group on Psychoanalysis and Cinema], Federal University of Rio Grande do Sul** (Undergraduate Research Assistant), 2017–2021
 
 ---
 

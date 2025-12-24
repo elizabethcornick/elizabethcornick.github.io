@@ -29,35 +29,6 @@ author_profile: true
 - Introduction to Gender and Sexuality Studies (GSS 202) — Fall 2023  
   *Supervised by Dr. Steven Butterman*
 
-## Workshop
-
-- **How to Create StoryMaps Using Leaflet and OpenStreetMaps**, University of Miami, 2025  
-  Supervised by Dr. Shai Cohen  
-  Workshop offered in SPA 310 — Sephardic Literature.
-- **How to Use CollectionBuilder**, University of Miami, 2025  
-  Supervised by Dr. Susanna Allés-Torrent, co-facilitated with Elizabeth Cornick  
-  Workshop offered in the Digital Humanities Interdisciplinary Research Group.
-- **Open-Source StoryMaps using Leaflet and OpenStreetMaps**, University of Miami, 2025  
-  Supervised by Dr. Susanna Allés-Torrent, co-facilitated with Elizabeth Cornick  
-  Workshop offered in the Digital Humanities Interdisciplinary Research Group.
-- **Data Literacy: R Language and Statistics Basics**, University of Miami, 2025  
-  Supervised by Dr. Susanna Allés-Torrent, co-facilitated with Elizabeth Cornick  
-  Workshop offered in the Digital Humanities Interdisciplinary Research Group.
-- **Data Literacy: Understanding Association and Causation in Data**, University of Miami, 2025  
-  Supervised by Dr. Susanna Allés-Torrent, co-facilitated with Elizabeth Cornick  
-  Workshop offered in the Digital Humanities Interdisciplinary Research Group.
-- **Introduction to Semantic Search with Semantra**, University of Miami, 2024  
-  Workshop offered in the Department of Modern Languages and Literatures's Lecture Series
-- **Introduction to Markdown**, University of Miami, 2024  
-  Supervised by Dr. Susanna Allés-Torrent, co-facilitated with Elizabeth Cornick and Michael Soriano  
-  Workshop offered in the Digital Humanities Interdisciplinary Research Group.
-- **Introduction to GitHub + GitHub Pages**, University of Miami, 2024  
-  Supervised by Dr. Susanna Allés-Torrent, co-facilitated with Elizabeth Cornick and Michael Soriano  
-  Workshop offered in the Digital Humanities Interdisciplinary Research Group.
-- **Pajubá 101**, University of Miami, 2023  
-  Supervised by Dr. Steven Butterman  
-  Workshop offered in POR 699 — Topics in Luso-Brazilian Cultures: LGBTQIA+ Brazil.
-
 ## Course Research Assistant
 
 **University of Miami**
