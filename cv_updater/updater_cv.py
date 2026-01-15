@@ -795,7 +795,7 @@ def generate_awards_section(data):
             return str(int(year))
         except (ValueError, TypeError):
             return str(year)
-
+    
     def format_currency_amount(amount):
         """Format currency amount when no currency is specified"""
         if not amount:
@@ -805,11 +805,15 @@ def generate_awards_section(data):
         except (ValueError, TypeError):
             return str(amount)
     # ----------------------
-
+    
     content = "## Awards and Honors\n\n"
     
     # Sort by year (descending)
-    awards_df = awards_df.sort_values('year', ascending=False, na_position='last')
+    try:
+        awards_df = awards_df.sort_values('year', ascending=False, na_position='last')
+    except TypeError:
+        # Handle mixed types in year column (e.g., "2022-2023" and numeric years)
+        pass
     
     for _, row in awards_df.iterrows():
         if row.get('award_name'):
@@ -1287,60 +1291,113 @@ def generate_service_section(data):
 
 def generate_memberships_section(data):
     """Generate Professional Memberships section with support for multiple periods."""
-    if 'Memberships' not in data or data['Memberships']. empty:
+    if 'Memberships' not in data or data['Memberships'].empty:
         return ""
     
     memberships_df = data['Memberships']
     
     # Check if there are any valid membership entries
-    has_valid_entries = any(row. get('organization') for _, row in memberships_df.iterrows())
+    has_valid_entries = any(row.get('organization') for _, row in memberships_df.iterrows())
     if not has_valid_entries: 
         return ""
     
-    # Group memberships by organization to handle multiple periods
+    # Group memberships by organization, then by section
     memberships_by_org = {}
     for _, row in memberships_df.iterrows():
         organization = row.get('organization')
+        section = row.get('section', '')
         if organization: 
             if organization not in memberships_by_org:
                 memberships_by_org[organization] = {
-                    'membership_type': row.get('membership_type', ''),
-                    'periods': []
+                    'main': None,  # For organization-level membership
+                    'sections': {}  # For section-level memberships
                 }
             
             start_year = row.get('start_year', '')
             end_year = row.get('end_year', '')
-            memberships_by_org[organization]['periods'].append({
-                'start':  start_year,
-                'end': end_year
-            })
+            period_data = {
+                'membership_type': row.get('membership_type', ''),
+                'periods': [{
+                    'start': start_year,
+                    'end': end_year
+                }]
+            }
+            
+            if section:
+                # This is a section membership
+                if section not in memberships_by_org[organization]['sections']:
+                    memberships_by_org[organization]['sections'][section] = period_data
+                else:
+                    memberships_by_org[organization]['sections'][section]['periods'].append({
+                        'start': start_year,
+                        'end': end_year
+                    })
+            else:
+                # This is organization-level membership
+                if memberships_by_org[organization]['main'] is None:
+                    memberships_by_org[organization]['main'] = period_data
+                else:
+                    memberships_by_org[organization]['main']['periods'].append({
+                        'start': start_year,
+                        'end': end_year
+                    })
     
     content = "## Professional Memberships\n\n"
     
-    for organization, details in memberships_by_org. items():
+    for organization, data_dict in memberships_by_org.items():
         content += f"**{organization}**"
         
-        if details['membership_type']:
-            content += f" ({details['membership_type']})"
-        
-        # Format all periods for this organization
-        period_strings = []
-        for period in details['periods']:
-            start_year = period['start']
-            end_year = period['end']
+        # Add organization-level membership info
+        if data_dict['main']:
+            details = data_dict['main']
+            if details['membership_type']:
+                content += f" ({details['membership_type']})"
             
-            if start_year: 
-                if end_year and end_year != start_year:
-                    period_strings.append(f"{format_date(start_year)}–{format_date(end_year)}")
-                else:
-                    period_strings.append(f"{format_date(start_year)}–present")
-        
-        if period_strings: 
-            content += f", {', '. join(period_strings)}"
+            # Format all periods for organization
+            period_strings = []
+            for period in details['periods']:
+                start_year = period['start']
+                end_year = period['end']
+                
+                if start_year: 
+                    if end_year and end_year != start_year:
+                        period_strings.append(f"{format_date(start_year)}–{format_date(end_year)}")
+                    else:
+                        period_strings.append(f"{format_date(start_year)}–present")
+            
+            if period_strings: 
+                content += f", {', '.join(period_strings)}"
         
         content += "\n\n"
+        
+        # Add section memberships as subitems
+        for section, details in data_dict['sections'].items():
+            content += f"- {section}"
+            
+            if details['membership_type']:
+                content += f" ({details['membership_type']})"
+            
+            # Format all periods for this section
+            period_strings = []
+            for period in details['periods']:
+                start_year = period['start']
+                end_year = period['end']
+                
+                if start_year: 
+                    if end_year and end_year != start_year:
+                        period_strings.append(f"{format_date(start_year)}–{format_date(end_year)}")
+                    else:
+                        period_strings.append(f"{format_date(start_year)}–present")
+            
+            if period_strings: 
+                content += f", {', '.join(period_strings)}"
+            
+            content += "\n"
+        
+        content += "\n"
     
     content += "---\n\n"
+    
     return content
 
 def generate_cv_markdown(data):

@@ -47,6 +47,9 @@ Amount: $500.00
 *University of Miami – Graduate School*  
 Amount: $1,000.00  
 
+**Dean's Fellowship** (2022-2023, 2026-2027)  
+*University of Miami – Graduate School*  
+
 **Outstanding Scientific Award [Prêmio Destaque de Sessão] – Graduate Program in Sociology, Students’ Seminar at UFRGS** (2020)  
 *Federal University of Rio Grande do Sul, Brasil*  
 For presentation in the Panel "Diversities and Intersectionalities"  
@@ -175,17 +178,17 @@ For presentation in the panel “Teaching”
 
 ### Undergraduate Presentations
 
-"Pode a travesti filmar? Marcas do cinema dirigido por travestis e mulheres trans no Brasil." *Salão de Iniciação Científica (XXXI)*, October 2019, Federal University of Rio Grande do Sul, Porto Alegre, Brazil.
-
 "Autopoiéticas somatoficcionais no cartoon infantil Steve Universe." *Simpósio Gênero e Infância: Direitos Humanos, Educação e Psicanálise*, October 2019, Federal University of Rio Grande do Sul, Porto Alegre, Brazil.
+
+"Pode a travesti filmar? Marcas do cinema dirigido por travestis e mulheres trans no Brasil." *Salão de Iniciação Científica (XXXI)*, October 2019, Federal University of Rio Grande do Sul, Porto Alegre, Brazil.
 
 "Sempre personagens, às vezes atrizes, nunca diretoras: o cinema feito por diretoras trans e travestis brasileiras." *Congresso UFCSPA (I)*, October 2019, Federal University of Health Sciences of Porto Alegre, Porto Alegre, Brazil.
 
-"Prótese, câmera, ação: diálogos entre a dildotectonia somatoficcional de Paul B. Preciado e a análise fílmica psicanalítica." *Colóquio Filosofia e Psicanálise (I)*, September 2019, Pontifical Catholic University of Rio Grande do Sul, Porto Alegre, Brazil.
+"Apresentação e resultados do projeto 'Compreendendo o Desenvolvimento Humano' a partir de atividades práticas de ensino e avaliação." *Congresso UFCSPA (I)*, October 2019, Federal University of Health Sciences of Porto Alegre, Porto Alegre, Brazil. With Karoline Schneider.
 
 "Irromperes (pós)identitários e multidões sexopolíticas." *Colóquio Filosofia e Psicanálise (I)*, September 2019, Pontifical Catholic University of Rio Grande do Sul, Porto Alegre, Brazil. With Thainan Piuco.
 
-"Apresentação e resultados do projeto 'Compreendendo o Desenvolvimento Humano' a partir de atividades práticas de ensino e avaliação." *Congresso UFCSPA (I)*, October 2019, Federal University of Health Sciences of Porto Alegre, Porto Alegre, Brazil. With Karoline Schneider.
+"Prótese, câmera, ação: diálogos entre a dildotectonia somatoficcional de Paul B. Preciado e a análise fílmica psicanalítica." *Colóquio Filosofia e Psicanálise (I)*, September 2019, Pontifical Catholic University of Rio Grande do Sul, Porto Alegre, Brazil.
 
 "Por uma análise díldica: contribuições estranhadas a partir do estudo de pornochanchadas." *Mostra de Trabalhos de Ensino, Pesquisa e Extensão (IV)*, September 2018, Federal University of Health Sciences of Porto Alegre, Porto Alegre, Brazil.
 
@@ -312,15 +315,23 @@ Supervisor: Dr. Daniela Centenaro Levandowski
 
 **Regional Council of Psychology of Rio Grande do Sul, Brazil** (Psychologist, #35206), 2021–present
 
-**Latin American Studies Association** (Member), 2025–present, 2024–present
+
+**Latin American Studies Association** (Member), 2024–present
+
+- Sexualities (Member), 2025–present
+- Archives, Libraries and Digital Scholarship (Member), 2024–present
 
 **Society for Cinema and Media Studies** (Member), 2025–present
 
+
 **Modern Languages Association** (Member), 2024–2025
+
 
 **Núcleo de Pesquisa em Psicanálise e Educação [Research Group on Psychoanalysis, Education, and Culture], Federal University of Rio Grande do Sul** (Undergraduate Research Assistant), 2016–2017
 
+
 **Núcleo de Pesquisa em Psicanálise e Cinema [Research Group on Psychoanalysis and Cinema], Federal University of Rio Grande do Sul** (Undergraduate Research Assistant), 2017–2021
+
 
 ---
 
@@ -338,5 +349,5 @@ Supervisor: Dr. Daniela Centenaro Levandowski
 
 ---
 
-*Last updated: December 2025*
+*Last updated: January 2026*
 
