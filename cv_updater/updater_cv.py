@@ -404,6 +404,7 @@ def generate_publications_section(data):
         
         # Separate publication types
         journal_articles = []
+        invited_publications = []
         book_chapters = []
         other_publications = []
         
@@ -412,7 +413,11 @@ def generate_publications_section(data):
                 bibtex_entry = parse_bibtex(row['bibtex'])
                 
                 if bibtex_entry.get('type') == 'article':
-                    journal_articles.append(bibtex_entry)
+                    # Check if it's an invited publication
+                    if bibtex_entry.get('note') and 'invited' in bibtex_entry.get('note', '').lower():
+                        invited_publications.append(bibtex_entry)
+                    else:
+                        journal_articles.append(bibtex_entry)
                 elif bibtex_entry.get('type') in ['incollection', 'inproceedings']:
                     book_chapters.append(bibtex_entry)
                 else:
@@ -423,6 +428,7 @@ def generate_publications_section(data):
             return sorted(entries, key=lambda x: int(x.get('year', 0) or 0), reverse=True)
         
         journal_articles = sort_by_year(journal_articles)
+        invited_publications = sort_by_year(invited_publications)
         book_chapters = sort_by_year(book_chapters)
         other_publications = sort_by_year(other_publications)
         
@@ -449,6 +455,52 @@ def generate_publications_section(data):
             content += "### Peer-Reviewed Journal Articles\n\n"
             
             for i, article in enumerate(journal_articles, 1):
+                authors = format_author_name(article.get('author', ''))
+                title = article.get('title', '')
+                titleaddon = article.get('titleaddon', '')
+                journal = article.get('journal', '')
+                year = article.get('year', '')
+                volume = article.get('volume', '')
+                number = article.get('number', '')
+                pages = article.get('pages', '')
+                doi = article.get('doi', '')
+                url = article.get('url', '')
+                
+                content += f"{i}. {authors} ({year}). "
+                
+                # Format title with translation
+                content += format_title_with_translation(title, titleaddon)
+
+                # Fix page ranges: replace double hyphen with en dash
+                if pages:
+                    pages = pages.replace("--", "–")
+                
+                if journal:
+                    content += f"*{journal}*"
+                
+                if volume:
+                    content += f", {volume}"
+                    if number:
+                        content += f"({number})"
+                
+                if pages:
+                    content += f": {pages}."
+                else:
+                    content += "."
+                
+                # Add URL or DOI at the end
+                if url:
+                    content += f" [{url}]({url})"
+                elif doi:
+                    content += f" DOI: [{doi}](https://doi.org/{doi})"
+                
+                content += "\n\n"
+        
+        # Invited Publications
+        if invited_publications:
+            content += "### Invited Publications\n\n"
+            
+            for i, article in enumerate(invited_publications, 1):
                 authors = format_author_name(article.get('author', ''))
                 title = article.get('title', '')
                 titleaddon = article.get('titleaddon', '')

@@ -9,11 +9,13 @@ author_profile: true
 
 1. Schneider, Karoline, Stumm, Euge Helyantus, Rocha, Roberta Zanini da, and Levandowski, Daniela Centenaro (2023). "Innovative Practices in Developmental Psychology Teaching". *Psicologia Escolar e Educacional*, 27: e242419. [https://doi.org/10.1590/2175-35392023-242419-T](https://doi.org/10.1590/2175-35392023-242419-T)
 
-2. Stumm, Euge Helyantus (2021). "Seriam os Goblins, na Verdade, Humanos? Colonização, Racismo e Barbárie em Dragon’s Dogma" [What if Goblins Were, Actually, Humans? Colonization, Racism, and Barbarism in Dragon’s Dogma]. *Revista Contraponto*, 8(2): 169–185. [https://www.seer.ufrgs.br/contraponto/article/view/117303/65101](https://www.seer.ufrgs.br/contraponto/article/view/117303/65101)
+2. Gurski, Rose, Strzykalski, Stephanie, Gomes, Paula Grus, and Stumm, Euge Helyantus (2020). "O Estado da Arte em Psicanálise e Educação no Rio Grande do Sul (2000-2016)" [The State of the Art of Psychoanalysis and Education in Rio Grande do Sul (2000-2016)]. *Revista Educação e Pesquisa*, 46: 1–15. [https://doi.org/10.1590/S1678-4634202046224847](https://doi.org/10.1590/S1678-4634202046224847)
 
-3. Gurski, Rose, Strzykalski, Stephanie, Gomes, Paula Grus, and Stumm, Euge Helyantus (2020). "O Estado da Arte em Psicanálise e Educação no Rio Grande do Sul (2000-2016)" [The State of the Art of Psychoanalysis and Education in Rio Grande do Sul (2000-2016)]. *Revista Educação e Pesquisa*, 46: 1–15. [https://doi.org/10.1590/S1678-4634202046224847](https://doi.org/10.1590/S1678-4634202046224847)
+3. Stumm, Euge Helyantus, and Weinmann, Amadeu de Oliveira (2019). "O Cinema como Criador de Próteses: Uma Análise Díldica de 'Os Rapazes das Calçadas'" [The Cinema as a Creator of Prostheses: A Dildic Analysis of 'The Guys of the Sidewalks']. *Revista Periódicus*, 1(11): 234–249. [https://doi.org/10.9771/peri.v1i11.29254](https://doi.org/10.9771/peri.v1i11.29254)
 
-4. Stumm, Euge Helyantus, and Weinmann, Amadeu de Oliveira (2019). "O Cinema como Criador de Próteses: Uma Análise Díldica de 'Os Rapazes das Calçadas'" [The Cinema as a Creator of Prostheses: A Dildic Analysis of 'The Guys of the Sidewalks']. *Revista Periódicus*, 1(11): 234–249. [https://doi.org/10.9771/peri.v1i11.29254](https://doi.org/10.9771/peri.v1i11.29254)
+## Invited Publications
+
+1. Stumm, Euge Helyantus (2021). "Seriam os Goblins, na Verdade, Humanos? Colonização, Racismo e Barbárie em Dragon’s Dogma" [What if Goblins Were, Actually, Humans? Colonization, Racism, and Barbarism in Dragon’s Dogma]. *Revista Contraponto*, 8(2): 169–185. [https://www.seer.ufrgs.br/contraponto/article/view/117303/65101](https://www.seer.ufrgs.br/contraponto/article/view/117303/65101)
 
 ## Book Chapters and Edited Volumes
 

@@ -71,11 +71,13 @@ For presentation in the panel “Teaching”
 
 1. Schneider, Karoline, Stumm, Euge Helyantus, Rocha, Roberta Zanini da, and Levandowski, Daniela Centenaro (2023). "Innovative Practices in Developmental Psychology Teaching". *Psicologia Escolar e Educacional*, 27: e242419. [https://doi.org/10.1590/2175-35392023-242419-T](https://doi.org/10.1590/2175-35392023-242419-T)
 
-2. Stumm, Euge Helyantus (2021). "Seriam os Goblins, na Verdade, Humanos? Colonização, Racismo e Barbárie em Dragon’s Dogma" [What if Goblins Were, Actually, Humans? Colonization, Racism, and Barbarism in Dragon’s Dogma]. *Revista Contraponto*, 8(2): 169–185. [https://www.seer.ufrgs.br/contraponto/article/view/117303/65101](https://www.seer.ufrgs.br/contraponto/article/view/117303/65101)
+2. Gurski, Rose, Strzykalski, Stephanie, Gomes, Paula Grus, and Stumm, Euge Helyantus (2020). "O Estado da Arte em Psicanálise e Educação no Rio Grande do Sul (2000-2016)" [The State of the Art of Psychoanalysis and Education in Rio Grande do Sul (2000-2016)]. *Revista Educação e Pesquisa*, 46: 1–15. [https://doi.org/10.1590/S1678-4634202046224847](https://doi.org/10.1590/S1678-4634202046224847)
 
-3. Gurski, Rose, Strzykalski, Stephanie, Gomes, Paula Grus, and Stumm, Euge Helyantus (2020). "O Estado da Arte em Psicanálise e Educação no Rio Grande do Sul (2000-2016)" [The State of the Art of Psychoanalysis and Education in Rio Grande do Sul (2000-2016)]. *Revista Educação e Pesquisa*, 46: 1–15. [https://doi.org/10.1590/S1678-4634202046224847](https://doi.org/10.1590/S1678-4634202046224847)
+3. Stumm, Euge Helyantus, and Weinmann, Amadeu de Oliveira (2019). "O Cinema como Criador de Próteses: Uma Análise Díldica de 'Os Rapazes das Calçadas'" [The Cinema as a Creator of Prostheses: A Dildic Analysis of 'The Guys of the Sidewalks']. *Revista Periódicus*, 1(11): 234–249. [https://doi.org/10.9771/peri.v1i11.29254](https://doi.org/10.9771/peri.v1i11.29254)
 
-4. Stumm, Euge Helyantus, and Weinmann, Amadeu de Oliveira (2019). "O Cinema como Criador de Próteses: Uma Análise Díldica de 'Os Rapazes das Calçadas'" [The Cinema as a Creator of Prostheses: A Dildic Analysis of 'The Guys of the Sidewalks']. *Revista Periódicus*, 1(11): 234–249. [https://doi.org/10.9771/peri.v1i11.29254](https://doi.org/10.9771/peri.v1i11.29254)
+### Invited Publications
+
+1. Stumm, Euge Helyantus (2021). "Seriam os Goblins, na Verdade, Humanos? Colonização, Racismo e Barbárie em Dragon’s Dogma" [What if Goblins Were, Actually, Humans? Colonization, Racism, and Barbarism in Dragon’s Dogma]. *Revista Contraponto*, 8(2): 169–185. [https://www.seer.ufrgs.br/contraponto/article/view/117303/65101](https://www.seer.ufrgs.br/contraponto/article/view/117303/65101)
 
 ### Book Chapters and Edited Volumes
 
@@ -235,6 +237,8 @@ Supervisor: Dr. Daniela Centenaro Levandowski
 
 "Pajubá Digital Archive" (2025) [https://eugestumm.github.io/PajubaDigitalArchive/](https://eugestumm.github.io/PajubaDigitalArchive/)
 
+"Gender-Inclusive Spanish Digital Archive" (2025) [https://eugestumm.github.io/gender-inclusive-spanish-digital-archive/](https://eugestumm.github.io/gender-inclusive-spanish-digital-archive/)
+
 "Digital Mapping Néstor Perlongher's 'O Negócio do Michê'" (2024) [https://eugestumm.github.io/negociodomiche_visualization/](https://eugestumm.github.io/negociodomiche_visualization/)
 
 ### Creative Work
@@ -262,6 +266,9 @@ Supervisor: Dr. Daniela Centenaro Levandowski
 
 ### University Service
 
+**Co-convenor, Queer Studies Interdisciplinary Research Group**, University of Miami (January 2026–present)
+    - With Dr. Brenna Munro
+
 **Co-convenor, Digital Humanities Interdisciplinary Research Group**, University of Miami (August 2025–present)
     - With Elizabeth Cornick and Dr. Susanna Allés-Torrent
 
@@ -274,7 +281,7 @@ Supervisor: Dr. Daniela Centenaro Levandowski
 
 ### Professional Development
 
-**How to Create StoryMaps Using Leaflet and OpenStreetMaps.**, University of Miami (April 8, 2025)
+**How to Create StoryMaps Using Leaflet and OpenStreetMaps**, University of Miami (April 8, 2025)
     - Workshop offered in SPA 310 — Sephardic Literature, under supervision of Dr. Shai Cohen.
 
 **How to Use CollectionBuilder**, University of Miami (April 16, 2025)
@@ -327,10 +334,13 @@ Supervisor: Dr. Daniela Centenaro Levandowski
 **Modern Languages Association** (Member), 2024–2025
 
 
-**Núcleo de Pesquisa em Psicanálise e Educação [Research Group on Psychoanalysis, Education, and Culture], Federal University of Rio Grande do Sul** (Undergraduate Research Assistant), 2016–2017
+**Núcleo de Estudos e Intervenção Psicossocial à Diversidade [Center for Studies and Psychosocial Intervention in Diversity]** (Graduate Research Assistant), 2021–2022
 
 
 **Núcleo de Pesquisa em Psicanálise e Cinema [Research Group on Psychoanalysis and Cinema], Federal University of Rio Grande do Sul** (Undergraduate Research Assistant), 2017–2021
+
+
+**Núcleo de Pesquisa em Psicanálise e Educação [Research Group on Psychoanalysis, Education, and Culture], Federal University of Rio Grande do Sul** (Undergraduate Research Assistant), 2016–2017
 
 
 ---

@@ -17,6 +17,18 @@ This digital archive features cultural productions and academic works that cente
 
 ---
 
+## [Gender-Inclusive Spanish Digital Archive](https://eugestumm.github.io/gender-inclusive-spanish-digital-archive/)
+
+**Year**: 2025; **Type**: Digital Scholarship
+
+The Gender-Inclusive Spanish Digital Archive is Digital Humanities project tracing the emergence of gender-inclusive Spanish through the colonial period, where condition of possibility of its creation was planted, and into modern times, where cultural productions that use gender-inclusive Spanish are themselves a form of resistence to this coloniality.
+
+**Technologies**: CollectionBuilder and d3.js
+
+**Collaborators**: Dr. Susanna Allés-Torrent and Dr. Steven Butterman (Supervisors)
+
+---
+
 ## [Digital mapping Néstor Perlongher's "O Negócio do Michê"](https://eugestumm.github.io/negociodomiche_visualization/)
 
 **Year**: 2024; **Type**: Digital Scholarship
