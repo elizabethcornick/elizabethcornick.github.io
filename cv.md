@@ -28,20 +28,13 @@ geometry: "margin=1in"
 
 **B.A. in Psychology**, 2021, Federal University of Health Sciences of Porto Alegre
 
-- Thesis: *Sempre personagens, às vezes atrizes, nunca diretoras: o cinema feito por diretoras trans e travestis brasileiras [Always Characters, Sometimes Actors, Never Directors: The Cinema Made by Brazilian Trans Women and Travesti Directors]*
+- Thesis: *Sempre personagens, às vezes atrizes, nunca diretoras: o cinema feito por diretoras trans e travestis brasileiras*
 - Advisor: [Maria Paula Prates](https://www.anthro.ox.ac.uk/people/dr-maria-paula-prates)
 - Committee: [Amadeu Weinmann (co-advisor)](https://scholar.google.com/citations?user=uQxz_4oAAAAJ&hl=en&oi=ao), [Aline Aver Vanin](https://scholar.google.com/citations?user=7-2BWcEAAAAJ&hl=pt-BR), [Léo Tietboehl](https://scholar.google.com/citations?hl=pt-BR&user=mbjlMXgAAAAJ)
 
 ---
 
 ## Awards and Honors
-
-**Dr. Edward Alexander Bouchet Graduate Honor Society** (2026)  
-*Howard University & Yale University – University of Miami Chapter*  
-
-**Max and Peggy Kriloff Student Travel Scholarship** (2026)  
-*University of Miami – Graduate School*  
-Amount: $500.00  
 
 **Center for the Humanities Dissertation Fellowship** (2026)  
 *University of Miami – Graduate School*  
@@ -72,19 +65,29 @@ For presentation in the Panel “Psychoanalysis and Cinema”
 *Federal University of Health Sciences of Porto Alegre*  
 For presentation in the panel “Teaching”  
 
----
-
 ## Publications
 
 ### Peer-Reviewed Journal Articles
 
-1. Meireles, Eduarda, Stumm, Euge, and Levandowski, Daniela "Trajetórias de Parentalidade: Experiências de Pessoas Trans e Não Binárias" [Trajectories of Parenthood: Experiences of Trans and Non-Binary People]. *Periódicus*, **forthcoming 2026**.
+1. Schneider, Karoline, Stumm, Euge Helyantus, Rocha, Roberta Zanini da, and Levandowski, Daniela Centenaro (2023). "Innovative Practices in Developmental Psychology Teaching". *Psicologia Escolar e Educacional*, 27: e242419. [https://doi.org/10.1590/2175-35392023-242419-T](https://doi.org/10.1590/2175-35392023-242419-T)
 
-2. Schneider, Karoline, Stumm, Euge Helyantus, Rocha, Roberta Zanini da, and Levandowski, Daniela Centenaro "Innovative Practices in Developmental Psychology Teaching". *Psicologia Escolar e Educacional*, 27: e242419. [https://doi.org/10.1590/2175-35392023-242419-T](https://doi.org/10.1590/2175-35392023-242419-T)
+2. Gurski, Rose, Strzykalski, Stephanie, Gomes, Paula Grus, and Stumm, Euge Helyantus (2020). "O Estado da Arte em Psicanálise e Educação no Rio Grande do Sul (2000-2016)" [The State of the Art of Psychoanalysis and Education in Rio Grande do Sul (2000-2016)]. *Revista Educação e Pesquisa*, 46: 1–15. [https://doi.org/10.1590/S1678-4634202046224847](https://doi.org/10.1590/S1678-4634202046224847)
 
-3. Gurski, Rose, Strzykalski, Stephanie, Gomes, Paula Grus, and Stumm, Euge Helyantus "O Estado da Arte em Psicanálise e Educação no Rio Grande do Sul (2000-2016)" [The State of the Art of Psychoanalysis and Education in Rio Grande do Sul (2000-2016)]. *Revista Educação e Pesquisa*, 46: 1–15. [https://doi.org/10.1590/S1678-4634202046224847](https://doi.org/10.1590/S1678-4634202046224847)
+3. Stumm, Euge Helyantus, and Weinmann, Amadeu de Oliveira (2019). "O Cinema como Criador de Próteses: Uma Análise Díldica de 'Os Rapazes das Calçadas'" [The Cinema as a Creator of Prostheses: A Dildic Analysis of 'The Guys of the Sidewalks']. *Revista Periódicus*, 1(11): 234–249. [https://doi.org/10.9771/peri.v1i11.29254](https://doi.org/10.9771/peri.v1i11.29254)
 
-4. Stumm, Euge Helyantus, and Weinmann, Amadeu de Oliveira "O Cinema como Criador de Próteses: Uma Análise Díldica de 'Os Rapazes das Calçadas'" [The Cinema as a Creator of Prostheses: A Dildic Analysis of 'The Guys of the Sidewalks']. *Revista Periódicus*, 1(11): 234–249. [https://doi.org/10.9771/peri.v1i11.29254](https://doi.org/10.9771/peri.v1i11.29254)
+### Peer-Reviewed Journal Articles (Accepted)
+
+1. Meireles, Eduarda, Stumm, Euge, and Levandowski, Daniela (accepted). "Trajetórias de Parentalidade: Experiências de Pessoas Trans e Não Binárias" [Trajectories of Parenthood: Experiences of Trans and Non-Binary People]. *Periódicus*.
+
+### Peer-Reviewed Journal Articles (Under Review)
+
+1. Stumm, Euge, Hamann, Cristiano, and Pizzinato, Adolfo (submitted). "Furry and Trans* Entanglements: Ethnographic Reflections from the Global South". 
+
+2. Stumm, Euge (submitted). "Sometimes Characters, Never Directors: The Brazilian Cinema Directed by Travestis and Trans Women". 
+
+3. Stumm, Euge (submitted). "A Review of \textit{Digital Edition of Fernando Pessoa. Projects and Publications". 
+
+4. Meurer, Camila, Stumm, Euge, and Levandowski, Daniela (submitted). "Nomenclaturas de Parentalidade e Gênero em Perspectivas Trans e Não-Binárias" [Parenting and Gender Nomenclatures in Trans and Non-Binary Perspectives]. 
 
 ### Invited Publications
 
@@ -92,33 +95,17 @@ For presentation in the panel “Teaching”
 
 ### Book Chapters and Edited Volumes
 
-1. Stumm, Euge, and Papadopoulos, Ben "Archiving Gender-Inclusive Language: Mapping Trans, Travesti, and Non-Binary Space and Time in Hispanic Cultural Productions". *Dispatches from the Trans Internet*, edited by Eliot Dunn, B1NARY Press, **forthcoming 2026**.
+1. Stumm, Euge Helyantus "Manifesto por uma Psicologia Pirata" [Manifesto Toward a Pirate Psychology]. *Gestos, Memórias e Narrativas da Escuta Clínica Permeada pela Tecnologia*, Regional Council of Psychology of Rio Grande do Sul, 2021, pp. 162–168. [https://www.crprs.org.br/conteudo/publicacoes/coletanea_CPCP_final.pdf](https://www.crprs.org.br/conteudo/publicacoes/coletanea_CPCP_final.pdf)
 
-2. Stumm, Euge Helyantus, and Butterman, Steven "Representations of Pajubá (or Bajubá) in Brazilian Popular Culture: Between Mass Media and Travesti Productions". *SAGE LGBTQ Studies Handbook*, Vol. 1, edited by Nael Bhanji et al., SAGE Publications, **forthcoming 2026**.
+2. Piuco, Thainan, and Stumm, Euge Helyantus "Estética Queer: Entre o Empoderamento e o Apagamento" [Queer Aesthetics: Between Empowerment and Erasure]. *Fórum Fashion Revolution 2020*, edited by Ana Beatriz Simon Factum et al., Ministry of Tourism and Unibes Cultural, 2020, pp. 259–263. [https://issuu.com/fashionrevolution/docs/fr-forum-2020](https://issuu.com/fashionrevolution/docs/fr-forum-2020)
 
-3. Stumm, Euge Helyantus "Manifesto por uma Psicologia Pirata" [Manifesto Toward a Pirate Psychology]. *Gestos, Memórias e Narrativas da Escuta Clínica Permeada pela Tecnologia*, Regional Council of Psychology of Rio Grande do Sul, 2021, pp. 162–168. [https://www.crprs.org.br/conteudo/publicacoes/coletanea_CPCP_final.pdf](https://www.crprs.org.br/conteudo/publicacoes/coletanea_CPCP_final.pdf)
+3. Stumm, Euge Helyantus "Uma Gameografia Menor? Multidões Sexopolíticas e as Produções Artísticas Dissidentes no Cenário Independente de Games" [A Minor Gameography? Sex-political Multitudes and the Dissident Artistic Productions in the Indie Games Scene]. *Contra o Cânone: Arte, Feminismo(s) e Ativismos Séculos XVIII a XXI. Seminário Internacional*, edited by Andrea Giunta et al., Fundação Bienal do Mercosul, 2020, pp. 170–175. [https://21cf08b2-90b0-4b83-97f9-807117bee408.filesusr.com/ugd/af02ce_25e71233bb4b4c42877ad2ac1b95b75b.pdf](https://21cf08b2-90b0-4b83-97f9-807117bee408.filesusr.com/ugd/af02ce_25e71233bb4b4c42877ad2ac1b95b75b.pdf)
 
-4. Piuco, Thainan, and Stumm, Euge Helyantus "Estética Queer: Entre o Empoderamento e o Apagamento" [Queer Aesthetics: Between Empowerment and Erasure]. *Fórum Fashion Revolution 2020*, edited by Ana Beatriz Simon Factum et al., Ministry of Tourism and Unibes Cultural, 2020, pp. 259–263. [https://issuu.com/fashionrevolution/docs/fr-forum-2020](https://issuu.com/fashionrevolution/docs/fr-forum-2020)
+### Book Chapters and Edited Volumes (Forthcoming)
 
-5. Stumm, Euge Helyantus "Uma Gameografia Menor? Multidões Sexopolíticas e as Produções Artísticas Dissidentes no Cenário Independente de Games" [A Minor Gameography? Sex-political Multitudes and the Dissident Artistic Productions in the Indie Games Scene]. *Contra o Cânone: Arte, Feminismo(s) e Ativismos Séculos XVIII a XXI. Seminário Internacional*, edited by Andrea Giunta et al., Fundação Bienal do Mercosul, 2020, pp. 170–175. [https://21cf08b2-90b0-4b83-97f9-807117bee408.filesusr.com/ugd/af02ce_25e71233bb4b4c42877ad2ac1b95b75b.pdf](https://21cf08b2-90b0-4b83-97f9-807117bee408.filesusr.com/ugd/af02ce_25e71233bb4b4c42877ad2ac1b95b75b.pdf)
+1. Stumm, Euge, and Papadopoulos, Ben (2026). "Archiving Gender-Inclusive Language: Mapping Trans, Travesti, and Non-Binary Space and Time in Hispanic Cultural Productions". *Dispatches from the Trans Internet*, edited by Eliot Dunn. B1NARY Press.
 
-### Digital Scholarship
-
-1. Stumm, Euge "Pajubá Digital Archive: An Open-Access Repository for Resources in and on Pajubá (or Bajubá)". 2025. [https://eugestumm.github.io/PajubaDigitalArchive/](https://eugestumm.github.io/PajubaDigitalArchive/)
-
-2. Stumm, Euge, and Papadopoulos, Ben "Gender-Inclusive Spanish Digital Archive". 2025. [https://eugestumm.github.io/gender-inclusive-spanish-digital-archive/](https://eugestumm.github.io/gender-inclusive-spanish-digital-archive/)
-
-3. Stumm, Euge "Digital mapping Néstor Perlongher's "O Negócio do Michê". 2024. [https://eugestumm.github.io/negociodomiche_visualization/](https://eugestumm.github.io/negociodomiche_visualization/)
-
-### Manuscripts Under Review
-
-1. Meurer, Camila, Stumm, Euge, and Levandowski, Daniela "Nomenclaturas de Parentalidade e Gênero em Perspectivas Trans e Não-Binárias" [Parenting and Gender Nomenclatures in Trans and Non-Binary Perspectives]. **[Peer-Reviewed Journal Article]**
-
-2. Stumm, Euge, Hamann, Cristiano, and Pizzinato, Adolfo "Furry and Trans* Entanglements: Ethnographic Reflections from the Global South". **[Book Chapter]**
-
-3. Stumm, Euge "Sometimes Characters, Never Directors: The Brazilian Cinema Directed by Travestis and Trans Women". **[Book Chapter]**
-
-4. Stumm, Euge "A Review of 'Digital Edition of Fernando Pessoa. Projects and Publications'". **[Review]**
+2. Stumm, Euge Helyantus, and Butterman, Steven (2026). "Representations of Pajubá (or Bajubá) in Brazilian Popular Culture: Between Mass Media and Travesti Productions". *SAGE LGBTQ Studies Handbook*, Vol. 1, edited by Nael Bhanji et al.. SAGE Publications.
 
 ---
 
@@ -266,6 +253,14 @@ Supervisor: Dr. Daniela Centenaro Levandowski
 
 ## Projects
 
+### Digital Scholarship
+
+"Pajubá Digital Archive" (2025) [https://eugestumm.github.io/PajubaDigitalArchive/](https://eugestumm.github.io/PajubaDigitalArchive/)
+
+"Gender-Inclusive Spanish Digital Archive" (2025) [https://eugestumm.github.io/gender-inclusive-spanish-digital-archive/](https://eugestumm.github.io/gender-inclusive-spanish-digital-archive/)
+
+"Digital Mapping Néstor Perlongher's 'O Negócio do Michê'" (2024) [https://eugestumm.github.io/negociodomiche_visualization/](https://eugestumm.github.io/negociodomiche_visualization/)
+
 ### Creative Work
 
 "Transylvania Witch" (2021) [https://transylvania-witch.tumblr.com/](https://transylvania-witch.tumblr.com/)
@@ -351,10 +346,6 @@ Supervisor: Dr. Daniela Centenaro Levandowski
 ---
 
 ## Professional Memberships
-
-**Dr. Edward Alexander Bouchet Graduate Honor Society**
-
-- University of Miami Chapter (Doctoral Student Membership), 2026–present
 
 **Regional Council of Psychology of Rio Grande do Sul, Brazil** (Psychologist, #35206), 2021–present
 

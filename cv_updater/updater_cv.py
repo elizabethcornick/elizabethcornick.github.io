@@ -394,7 +394,6 @@ def generate_education_section(data):
     content += "---\n\n"
     return content
 
-
 def generate_publications_section(data):
     """Generate Publications section"""
     content = "## Publications\n\n"
@@ -402,24 +401,49 @@ def generate_publications_section(data):
     if 'Publications' in data:
         publications_df = data['Publications']
         
-        # Separate publication types
+        # Separate publication types and status
         journal_articles = []
+        journal_articles_review = []
         invited_publications = []
+        reviews = []
+        reviews_review = []
         book_chapters = []
+        book_chapters_review = []
+        digital_scholarship = []
         other_publications = []
         
         for _, row in publications_df.iterrows():
             if row.get('bibtex'):
                 bibtex_entry = parse_bibtex(row['bibtex'])
+                note = bibtex_entry.get('note', '').lower()
                 
-                if bibtex_entry.get('type') == 'article':
-                    # Check if it's an invited publication
-                    if bibtex_entry.get('note') and 'invited' in bibtex_entry.get('note', '').lower():
+                if bibtex_entry.get('type') == 'online':
+                    # Digital scholarship projects
+                    digital_scholarship.append(bibtex_entry)
+                elif bibtex_entry.get('type') == 'article':
+                    # Check if it's a review first
+                    if 'review' in note:
+                        if 'submitted' in note:
+                            reviews_review.append(bibtex_entry)
+                        else:
+                            # Both published and accepted reviews go here
+                            reviews.append(bibtex_entry)
+                    # Check if it's invited
+                    elif 'invited' in note:
                         invited_publications.append(bibtex_entry)
+                    # Check status from note field
+                    elif 'submitted' in note:
+                        journal_articles_review.append(bibtex_entry)
                     else:
+                        # Published and accepted articles go together
                         journal_articles.append(bibtex_entry)
                 elif bibtex_entry.get('type') in ['incollection', 'inproceedings']:
-                    book_chapters.append(bibtex_entry)
+                    # Check if submitted
+                    if 'submitted' in note:
+                        book_chapters_review.append(bibtex_entry)
+                    else:
+                        # Published, accepted, and forthcoming go together
+                        book_chapters.append(bibtex_entry)
                 else:
                     other_publications.append(bibtex_entry)
         
@@ -428,8 +452,13 @@ def generate_publications_section(data):
             return sorted(entries, key=lambda x: int(x.get('year', 0) or 0), reverse=True)
         
         journal_articles = sort_by_year(journal_articles)
+        journal_articles_review = sort_by_year(journal_articles_review)
         invited_publications = sort_by_year(invited_publications)
+        reviews = sort_by_year(reviews)
+        reviews_review = sort_by_year(reviews_review)
         book_chapters = sort_by_year(book_chapters)
+        book_chapters_review = sort_by_year(book_chapters_review)
+        digital_scholarship = sort_by_year(digital_scholarship)
         other_publications = sort_by_year(other_publications)
         
         # Helper function to format title with translation
@@ -450,7 +479,7 @@ def generate_publications_section(data):
             
             return formatted_title + " "
         
-        # Journal Articles
+        # Journal Articles (Published and Accepted)
         if journal_articles:
             content += "### Peer-Reviewed Journal Articles\n\n"
             
@@ -465,8 +494,9 @@ def generate_publications_section(data):
                 pages = article.get('pages', '')
                 doi = article.get('doi', '')
                 url = article.get('url', '')
+                note = article.get('note', '').lower()
                 
-                content += f"{i}. {authors} ({year}). "
+                content += f"{i}. {authors} "
                 
                 # Format title with translation
                 content += format_title_with_translation(title, titleaddon)
@@ -484,9 +514,16 @@ def generate_publications_section(data):
                         content += f"({number})"
                 
                 if pages:
-                    content += f": {pages}."
-                else:
-                    content += "."
+                    content += f": {pages}"
+                
+                # Add forthcoming status if applicable
+                if 'accepted' in note:
+                    if year:
+                        content += f", **forthcoming {year}**"
+                    else:
+                        content += ", **forthcoming**"
+                
+                content += "."
                 
                 # Add URL or DOI at the end
                 if url:
@@ -542,7 +579,7 @@ def generate_publications_section(data):
                 
                 content += "\n\n"
         
-        # Book Chapters
+        # Book Chapters (Published, Accepted, and Forthcoming)
         if book_chapters:
             content += "### Book Chapters and Edited Volumes\n\n"
             
@@ -552,10 +589,14 @@ def generate_publications_section(data):
                 titleaddon = chapter.get('titleaddon', '')
                 booktitle = chapter.get('booktitle', '')
                 year = chapter.get('year', '')
+                volume = chapter.get('volume', '')
+                chapter_num = chapter.get('chapter', '')
                 pages = chapter.get('pages', '')
                 publisher = chapter.get('publisher', '')
                 editor = chapter.get('editor', '')
                 url = chapter.get('url', '')
+                doi = chapter.get('doi', '')
+                note = chapter.get('note', '').lower()
 
                 # Fix page ranges: replace double hyphen with en dash
                 if pages:
@@ -593,22 +634,33 @@ def generate_publications_section(data):
                 # Chapter/article title in quotes
                 content += format_title_with_translation(title, titleaddon)
 
-                # Book title italicized
+                # Book title italicized with volume if available
                 if booktitle:
                     content += f"*{booktitle}*"
+                    if volume:
+                        content += f", Vol. {volume}"
 
                 # Editors
                 if formatted_editors:
                     content += f", edited by {formatted_editors}"
 
-                # Publisher + year
+                # Publisher
                 if publisher:
                     content += f", {publisher}"
-                if year:
-                    content += f", {year}"
-
-                # Page range
-                if pages:
+                
+                # Check if it's forthcoming or accepted
+                if 'forthcoming' in note or 'accepted' in note:
+                    if year:
+                        content += f", **forthcoming {year}**"
+                    else:
+                        content += ", **forthcoming**"
+                else:
+                    # Published - include year
+                    if year:
+                        content += f", {year}"
+                
+                # Page range (only for published chapters)
+                if pages and 'forthcoming' not in note and 'accepted' not in note:
                     content += f", pp. {pages}"
 
                 content += "."
@@ -620,8 +672,115 @@ def generate_publications_section(data):
                     content += f" DOI: [{doi}](https://doi.org/{doi})"
 
                 content += "\n\n"
+        
+        # Reviews (Published and Accepted)
+        if reviews:
+            content += "### Reviews\n\n"
+            
+            for i, article in enumerate(reviews, 1):
+                authors = format_author_name(article.get('author', ''))
+                title = article.get('title', '')
+                titleaddon = article.get('titleaddon', '')
+                journal = article.get('journal', '')
+                year = article.get('year', '')
+                volume = article.get('volume', '')
+                number = article.get('number', '')
+                pages = article.get('pages', '')
+                doi = article.get('doi', '')
+                url = article.get('url', '')
+                note = article.get('note', '').lower()
+                
+                content += f"{i}. {authors} "
+                
+                # Format title (reviews typically start with "Review of" or similar)
+                content += format_title_with_translation(title, titleaddon)
 
-
+                # Fix page ranges: replace double hyphen with en dash
+                if pages:
+                    pages = pages.replace("--", "–")
+                
+                if journal:
+                    content += f"*{journal}*"
+                
+                if volume:
+                    content += f", {volume}"
+                    if number:
+                        content += f"({number})"
+                
+                if pages:
+                    content += f": {pages}"
+                
+                # Add forthcoming status or under review status if applicable
+                if 'accepted' in note:
+                    content += ", **forthcoming**"
+                elif 'submitted' in note:
+                    content += ", **under review**"
+                
+                content += "."
+                
+                # Add URL or DOI at the end
+                if url:
+                    content += f" [{url}]({url})"
+                elif doi:
+                    content += f" DOI: [{doi}](https://doi.org/{doi})"
+                
+                content += "\n\n"
+        
+        # Digital Scholarship
+        if digital_scholarship:
+            content += "### Digital Scholarship\n\n"
+            
+            for i, project in enumerate(digital_scholarship, 1):
+                authors = format_author_name(project.get('author', ''))
+                title = project.get('title', '')
+                titleaddon = project.get('titleaddon', '')
+                year = project.get('year', '')
+                url = project.get('url', '')
+                note = project.get('note', '')
+                
+                content += f"{i}. {authors} "
+                
+                # Format title with translation
+                content += format_title_with_translation(title, titleaddon)
+                
+                # Add year
+                if year:
+                    content += f"{year}. "
+                
+                # Add URL
+                if url:
+                    content += f"[{url}]({url})"
+                
+                content += "\n\n"
+        
+        # Manuscripts Under Review (includes articles, book chapters, and reviews)
+        manuscripts_under_review = journal_articles_review + book_chapters_review + reviews_review
+        manuscripts_under_review = sort_by_year(manuscripts_under_review)
+        
+        if manuscripts_under_review:
+            content += "### Manuscripts Under Review\n\n"
+            
+            for i, item in enumerate(manuscripts_under_review, 1):
+                authors = format_author_name(item.get('author', ''))
+                title = item.get('title', '')
+                titleaddon = item.get('titleaddon', '')
+                note = item.get('note', '').lower()
+                item_type = item.get('type', '')
+                
+                content += f"{i}. {authors} "
+                
+                # Format title with translation
+                content += format_title_with_translation(title, titleaddon)
+                
+                # Add manuscript type tag
+                if 'review' in note:
+                    content += "**[Review]**"
+                elif item_type in ['incollection', 'inproceedings']:
+                    content += "**[Book Chapter]**"
+                else:
+                    content += "**[Peer-Reviewed Journal Article]**"
+                
+                content += "\n\n"
         
         # Other Publications
         if other_publications:
@@ -905,6 +1064,7 @@ def generate_awards_section(data):
             
             content += "\n"  # Empty line between entries
     
+    content += "---\n\n"
     return content
 
 def generate_funded_research_section(data):
@@ -980,33 +1140,39 @@ def generate_research_section(data):
     content = "## Projects\n\n"
     if 'Projects' in data:
         projects_df = data['Projects']
-        # Sort projects by most recent first
-        # Convert start_date to datetime for proper sorting, handling potential None values
-        projects_df['start_date_parsed'] = pd.to_datetime(projects_df['start_date'], errors='coerce')
-        projects_df_sorted = projects_df.sort_values('start_date_parsed', ascending=False, na_position='last')
         
-        # Check if project_type column exists and has values
-        if 'project_type' in projects_df_sorted.columns and projects_df_sorted['project_type'].notna().any():
-            # Group by project_type
-            # Get unique project types, prioritizing Digital Scholarship first
+        # Convert start_date to datetime for proper sorting
+        projects_df['start_date_parsed'] = pd.to_datetime(
+            projects_df['start_date'], errors='coerce'
+        )
+        
+        projects_df_sorted = projects_df.sort_values(
+            'start_date_parsed',
+            ascending=False,
+            na_position='last'
+        )
+
+        # 🚫 REMOVE Digital Scholarship projects
+        if 'project_type' in projects_df_sorted.columns:
+            projects_df_sorted = projects_df_sorted[
+                projects_df_sorted['project_type'] != 'Digital Scholarship'
+            ]
+
+        # If project_type exists and still has values after filtering
+        if (
+            'project_type' in projects_df_sorted.columns and
+            projects_df_sorted['project_type'].notna().any()
+        ):
             unique_types = projects_df_sorted['project_type'].dropna().unique()
-            
-            # Sort so Digital Scholarship comes first, then Creative Work, then others
-            type_order = []
-            for t in ['Digital Scholarship', 'Creative Work']:
-                if t in unique_types:
-                    type_order.append(t)
-            # Add any other types
-            for t in unique_types:
-                if t not in type_order:
-                    type_order.append(t)
-            
-            for project_type in type_order:
-                project_group = projects_df_sorted[projects_df_sorted['project_type'] == project_type]
-                
+
+            for project_type in unique_types:
+                project_group = projects_df_sorted[
+                    projects_df_sorted['project_type'] == project_type
+                ]
+
                 if not project_group.empty:
                     content += f"### {project_type}\n\n"
-                    
+
                     for _, row in project_group.iterrows():
                         if row.get('title'):
                             short_title = row.get('short_title', '')
@@ -1014,9 +1180,8 @@ def generate_research_section(data):
                             start_date = row.get('start_date', '')
                             end_date = row.get('end_date', '')
                             url = row.get('url', '')
-                            
+
                             display_title = short_title if short_title else title
-                            
                             content += f'"{display_title}" '
 
                             if start_date:
@@ -1024,17 +1189,14 @@ def generate_research_section(data):
                                 if end_date and end_date != start_date:
                                     date_range += f"–{format_date(end_date)}"
                                 content += f"({date_range})"
-                            else:
-                                content += f"({date_range})"
 
-                            
-                            # Add URL as markdown link if available
                             if pd.notna(url):
                                 content += f" [{url}]({url})"
-                            
+
                             content += "\n\n"
+
         else:
-            # If no project_type column or all values are NaN, just list all projects
+            # If no project_type column or all values are NaN
             for _, row in projects_df_sorted.iterrows():
                 if row.get('title'):
                     short_title = row.get('short_title', '')
@@ -1042,12 +1204,10 @@ def generate_research_section(data):
                     start_date = row.get('start_date', '')
                     end_date = row.get('end_date', '')
                     url = row.get('url', '')
-                    
+
                     display_title = short_title if short_title else title
-                    
                     content += f'"{display_title}"'
-                    
-                    # Use end_date if it exists, otherwise show start_date-present
+
                     if pd.notna(end_date):
                         end_year = pd.to_datetime(end_date, errors='coerce').year
                         if pd.notna(end_year):
@@ -1056,16 +1216,17 @@ def generate_research_section(data):
                         start_year = pd.to_datetime(start_date, errors='coerce').year
                         if pd.notna(start_year):
                             content += f" ({int(start_year)}-present)"
-                    
+
                     if pd.notna(url):
                         content += f", [{url}]({url})"
-                    
+
                     content += ".\n\n"
-        
-        # Clean up the temporary column
+
+        # Clean up temporary column
         projects_df.drop('start_date_parsed', axis=1, inplace=True)
-    
+
     return content
+
 
 def generate_languages_section(data):
     """Generate Languages section"""
