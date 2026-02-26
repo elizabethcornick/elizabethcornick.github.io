@@ -21,7 +21,7 @@ def copy_to_pages():
     # Create _pages directory if it doesn't exist
     os.makedirs(parent_pages_dir, exist_ok=True)
     
-    files_to_copy = ['projects.md', 'publications.md', 'teaching.md', 'conferences.md', 'cv.md', 'cv_euge_stumm.pdf']
+    files_to_copy = ['projects.md', 'publications.md', 'teaching.md', 'conferences.md', 'cv.md', 'cv_elizabeth_cornick.pdf']
     for file in files_to_copy:
         if os.path.exists(file):  # Only copy files that exist
             dest_path = os.path.join(parent_pages_dir, file)
@@ -32,10 +32,10 @@ def copy_to_pages():
                 print(f"Error copying {file}: {e}")
 
 def copy_cv_to_assets():
-    """Copy cv_euge_stumm.pdf to assets directory"""
-    print("\nCopying cv_euge_stumm.pdf to assets directory...")
+    """Copy cv to assets directory"""
+    print("\nCopying cv to assets directory...")
     
-    cv_pdf = 'cv_euge_stumm.pdf'
+    cv_pdf = 'cv_elizabeth_cornick.pdf'
     assets_dir = os.path.join(os.path.dirname(os.getcwd()), 'assets')
     
     # Create assets directory if it doesn't exist
@@ -52,9 +52,9 @@ def copy_cv_to_assets():
         print(f"Error: {cv_pdf} not found - cannot copy to assets")
 
 def copy_cv_to_assets():
-    """Copy cv_euge_stumm.pdf to assets directory"""
-    print("\nCopying cv_euge_stumm.pdf to assets directory...")
-    cv_pdf = 'cv_euge_stumm.pdf'
+    """Copy cv to assets directory"""
+    print("\nCopying cv to assets directory...")
+    cv_pdf = 'cv_elizabeth_cornick.pdf'
     assets_dir = os.path.join(os.path.dirname(os.getcwd()), 'assets')
     
     # Create assets directory if it doesn't exist
@@ -72,10 +72,10 @@ def copy_cv_to_assets():
 
 
 def convert_cv_to_pdf():
-    """Convert cv.md to cv_euge_stumm.pdf using Pandoc with LaTeX"""
-    print("\nConverting cv.md to cv_euge_stumm.pdf using Pandoc + LaTeX...")
+    """Convert cv.md to cv using Pandoc with LaTeX"""
+    print("\nConverting cv.md to cv using Pandoc + LaTeX...")
     cv_md = 'cv.md'
-    cv_pdf = 'cv_euge_stumm.pdf'
+    cv_pdf = 'cv_elizabeth_cornick.pdf'
     
     if not os.path.exists(cv_md):
         print(f"Error: {cv_md} not found")
