@@ -2,35 +2,33 @@
 author: Euge Stumm
 geometry: "margin=1in"
 ---
-# Euge Helyantus Stumm
+# Elizabeth Cornick
 
-*Ph.D. Candidate in Literary, Cultural, and Linguistic Studies (University of Miami)*
+*Ph.D. Student in English (University of Miami)*
 
-**Email:** [ehs89@miami.edu](mailto:ehs89@miami.edu) | **Website:** [eugestumm.github.io](https://eugestumm.github.io) | **ORCID:** [0000-0001-9087-4198](https://orcid.org/0000-0001-9087-4198) | **GitHub:** [@eugestumm](https://github.com/eugestumm)
+**Email:** [emc988@miami.edu](mailto:emc988@miami.edu) | **Website:** [elizabethcornick.github.io](https://elizabethcornick.github.io) | **GitHub:** [@elizabethcornick](https://github.com/elizabethcornick)
 
 
 ---
 
 ## Education
 
-**Ph.D. in Literary, Cultural, and Linguistic Studies**, Expected 2027, University of Miami, GPA: 4.0
+**Ph.D. in English**, Expected 2028, University of Miami, GPA: 3.97
 
-- Advisor: [Steven Butterman](https://people.miami.edu/profile/0901841aec6ac4f4f40a0176b3156b3f)
-- Committee: [Ager Gondra](https://orcid.org/0000-0002-8346-4489), [Claire Oueslati-Porter](https://people.miami.edu/profile/7673e06c53adb71799e3faf386cf2164), [Gema Pérez-Sánchez](https://scholar.google.com/citations?user=eh0I93EAAAAJ&hl=en&oi=ao), [Yolanda Martínez-San Miguel](https://scholar.google.com/citations?user=H-OAKTQAAAAJ&hl=en&oi=ao)
+- Thesis: *Slouching Toward Someplace: Novel Nostalgias in 1960s American Fiction *
+- Advisor: Catherine Judd
+- Committee: Joel Nickels, John Funchion
 - **Graduate Certificate in Digital Humanities**, Expected 2027
-- **Graduate Certificate in Second Language Acquisition and Teaching**, 2024
 
-**M.A. in Psychology**, 2022, Federal University of Rio Grande do Sul, GPA: 4.0
+**M.A. in Comparative Literature**, 2021, Dartmouth College, GPA: 4.0
 
-- Thesis: *How to be Furro: A Digital Ethnography Among Brazilian Furry Fandoms*
-- Advisor: [Adolfo Pizzinato](https://scholar.google.com/citations?user=rgNEiA8AAAAJ&hl=es)
-- Committee: [Débora Krischke Leitão](https://scholar.google.com/citations?user=mSU1fDUAAAAJ&hl=en), [Paula Sandrine Machado](https://scholar.google.com/citations?user=uCuAJOYAAAAJ&hl=pt-BR), [Rita de Cássia Sobreira Lopes](https://scholar.google.com/citations?user=rn84oA4AAAAJ&hl=pt-BR)
+- Thesis: *Woolf as Window: A View into Martin Gaite's Treatment of Alienation in El cuarto de atras*
+- Advisor: Antonio Lopez-Quinones
+- Committee: Melissa Zeiger, Yulia Komska
 
-**B.A. in Psychology**, 2021, Federal University of Health Sciences of Porto Alegre
+**B.A. in English**, 2017, University of Virginia, GPA: 3.9
 
-- Thesis: *Sempre personagens, às vezes atrizes, nunca diretoras: o cinema feito por diretoras trans e travestis brasileiras [Always Characters, Sometimes Actors, Never Directors: The Cinema Made by Brazilian Trans Women and Travesti Directors]*
-- Advisor: [Maria Paula Prates](https://www.anthro.ox.ac.uk/people/dr-maria-paula-prates)
-- Committee: [Amadeu Weinmann (co-advisor)](https://scholar.google.com/citations?user=uQxz_4oAAAAJ&hl=en&oi=ao), [Aline Aver Vanin](https://scholar.google.com/citations?user=7-2BWcEAAAAJ&hl=pt-BR), [Léo Tietboehl](https://scholar.google.com/citations?hl=pt-BR&user=mbjlMXgAAAAJ)
+- Advisor: Jennifer Greeson
 
 ---
 
@@ -53,24 +51,6 @@ Amount: $500.00
 **Graduate Student Travel Support** (2024)  
 *University of Miami – Graduate School*  
 Amount: $1,000.00  
-
-**Dean's Fellowship** (2022-2023, 2026-2027)  
-*University of Miami – Graduate School*  
-
-**Outstanding Scientific Award [Prêmio Destaque de Sessão] – Graduate Program in Sociology, Students’ Seminar at UFRGS** (2020)  
-*Federal University of Rio Grande do Sul, Brasil*  
-For presentation in the Panel "Diversities and Intersectionalities"  
-
-**Outstanding Scientific Award [Prêmio Destaque de Sessão]** (2019)  
-*Federal University of Rio Grande do Sul, Brasil*  
-For presentation in the Panel “Psychoanalysis and Cinema”  
-
-**Nomination – Human Sciences’ Young Researcher Award [Prêmio Jovem Pesquisador]** (2019)  
-*Federal University of Rio Grande do Sul, Brasil*  
-
-**Outstanding Scientific Award [Prêmio Destaque de Sessão] – Congress UFCSPA** (2019)  
-*Federal University of Health Sciences of Porto Alegre*  
-For presentation in the panel “Teaching”  
 
 ---
 
@@ -213,17 +193,17 @@ For presentation in the panel “Teaching”
 
 ### Undergraduate Presentations
 
-"Pode a travesti filmar? Marcas do cinema dirigido por travestis e mulheres trans no Brasil." *Salão de Iniciação Científica (XXXI)*, October 2019, Federal University of Rio Grande do Sul, Porto Alegre, Brazil.
-
 "Autopoiéticas somatoficcionais no cartoon infantil Steve Universe." *Simpósio Gênero e Infância: Direitos Humanos, Educação e Psicanálise*, October 2019, Federal University of Rio Grande do Sul, Porto Alegre, Brazil.
+
+"Pode a travesti filmar? Marcas do cinema dirigido por travestis e mulheres trans no Brasil." *Salão de Iniciação Científica (XXXI)*, October 2019, Federal University of Rio Grande do Sul, Porto Alegre, Brazil.
 
 "Sempre personagens, às vezes atrizes, nunca diretoras: o cinema feito por diretoras trans e travestis brasileiras." *Congresso UFCSPA (I)*, October 2019, Federal University of Health Sciences of Porto Alegre, Porto Alegre, Brazil.
 
-"Prótese, câmera, ação: diálogos entre a dildotectonia somatoficcional de Paul B. Preciado e a análise fílmica psicanalítica." *Colóquio Filosofia e Psicanálise (I)*, September 2019, Pontifical Catholic University of Rio Grande do Sul, Porto Alegre, Brazil.
+"Apresentação e resultados do projeto 'Compreendendo o Desenvolvimento Humano' a partir de atividades práticas de ensino e avaliação." *Congresso UFCSPA (I)*, October 2019, Federal University of Health Sciences of Porto Alegre, Porto Alegre, Brazil. With Karoline Schneider.
 
 "Irromperes (pós)identitários e multidões sexopolíticas." *Colóquio Filosofia e Psicanálise (I)*, September 2019, Pontifical Catholic University of Rio Grande do Sul, Porto Alegre, Brazil. With Thainan Piuco.
 
-"Apresentação e resultados do projeto 'Compreendendo o Desenvolvimento Humano' a partir de atividades práticas de ensino e avaliação." *Congresso UFCSPA (I)*, October 2019, Federal University of Health Sciences of Porto Alegre, Porto Alegre, Brazil. With Karoline Schneider.
+"Prótese, câmera, ação: diálogos entre a dildotectonia somatoficcional de Paul B. Preciado e a análise fílmica psicanalítica." *Colóquio Filosofia e Psicanálise (I)*, September 2019, Pontifical Catholic University of Rio Grande do Sul, Porto Alegre, Brazil.
 
 "Por uma análise díldica: contribuições estranhadas a partir do estudo de pornochanchadas." *Mostra de Trabalhos de Ensino, Pesquisa e Extensão (IV)*, September 2018, Federal University of Health Sciences of Porto Alegre, Porto Alegre, Brazil.
 
@@ -291,16 +271,16 @@ Supervisor: Dr. Daniela Centenaro Levandowski
 
 ### University Service
 
-**Co-convenor, Queer Studies Interdisciplinary Research Group**, University of Miami (January 2026–present)
+**Co-convener, Queer Studies Interdisciplinary Research Group**, University of Miami (January 2026–present)
     - With Dr. Brenna Munro
 
-**Co-convenor, Digital Humanities Interdisciplinary Research Group**, University of Miami (August 2025–present)
+**Co-convener, Digital Humanities Interdisciplinary Research Group**, University of Miami (August 2025–present)
     - With Elizabeth Cornick and Dr. Susanna Allés-Torrent
 
-**Co-convenor, Digital Humanities Interdisciplinary Research Group**, University of Miami (August 2024–April 2025)
+**Co-convener, Digital Humanities Interdisciplinary Research Group**, University of Miami (August 2024–April 2025)
     - With Elizabeth Cornick, Michael Soriano, and Dr. Susanna Allés-Torrent
 
-**Co-convenor, Queer Studies Interdisciplinary Research Group**, University of Miami (August 2023–April 2024)
+**Co-convener, Queer Studies Interdisciplinary Research Group**, University of Miami (August 2023–April 2024)
     - With Elizabeth Cornick
 
 

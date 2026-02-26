@@ -1640,7 +1640,7 @@ def generate_cv_markdown(data):
     return cv_content
 
 def main():
-    url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vS4TyMkL-aPWhYseDOToCruWUmoiM72tPAzGWvb_DauEtXZZxuHy3AVXFXAQ6DbEuU-T5S5yS9lt2xS/pub?output=ods"
+    url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSiegYK05z5yasH1GQTJFOCZGCfmBVFguqUkRw_9FeE55f5snDK2soe0OJnNomaDza_EQP4K8G_LtgB/pub?output=ods"
     output_file = "cv.md"
     
     # Fetch data from Google Sheets
