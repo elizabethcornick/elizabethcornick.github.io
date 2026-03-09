@@ -7,7 +7,7 @@ author_profile: true
 
 ## Digital Scholarship
 
-1. Raul Martin, Elizabeth Cornick, and Pathak, Prishanti "Listening in/to South Florida". 2025. [https://rm4-25.github.io/FL-Sounds2/](https://rm4-25.github.io/FL-Sounds2/)
+1. Cornick, Elizabeth "Listening in/to South Florida". 2025. [https://rm4-25.github.io/FL-Sounds2/](https://rm4-25.github.io/FL-Sounds2/)
 
 ## Manuscripts Under Review
 

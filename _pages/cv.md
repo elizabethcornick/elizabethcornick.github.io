@@ -16,17 +16,17 @@ geometry: "margin=1in"
 **Ph.D. in English**, Expected 2028, University of Miami, GPA: 3.97
 
 - Thesis: *Slouching Toward Someplace: Novel Nostalgias in 1960s American Fiction *
-- Advisor: Catherine Judd
-- Committee: Joel Nickels, John Funchion
+- Advisor: [Catherine Judd](Catherine Judd)
+- Committee: [Joel Nickels](https://people.miami.edu/profile/9a77155fd628399297835efa093ad13d), [John Funchion](https://www.johnfunchion.com/)
 - **Graduate Certificate in Digital Humanities**, Expected 2027
 
 **M.A. in Comparative Literature**, 2021, Dartmouth College, GPA: 4.0
 
 - Thesis: *Woolf as Window: A View into Martin Gaite's Treatment of Alienation in El cuarto de atras*
-- Advisor: Antonio Lopez-Quinones
-- Committee: Melissa Zeiger, Yulia Komska
+- Advisor: [Antonio Gómez López-Quiñones](https://faculty-directory.dartmouth.edu/antonio-gomez-lopez-quinones)
+- Committee: [Melissa Zeiger](https://faculty-directory.dartmouth.edu/melissa-f-zeiger), [Yulia Komska](https://faculty-directory.dartmouth.edu/yuliya-komska)
 
-**B.A. in English**, 2017, University of Virginia, GPA: 3.9
+**B.A. in English (with Distinction)**, 2017, University of Virginia, GPA: 3.9
 
 - Advisor: Jennifer Greeson
 
@@ -34,23 +34,39 @@ geometry: "margin=1in"
 
 ## Awards and Honors
 
-**Dr. Edward Alexander Bouchet Graduate Honor Society** (2026)  
-*Howard University & Yale University – University of Miami Chapter*  
-
-**Max and Peggy Kriloff Student Travel Scholarship** (2026)  
+**American Studies Fellowship** (2026)  
 *University of Miami – Graduate School*  
-Amount: $500.00  
-
-**Center for the Humanities Dissertation Fellowship** (2026)  
-*University of Miami – Graduate School*  
+Amount: $4,300.00  
 
 **Max and Peggy Kriloff Student Travel Scholarship** (2025)  
 *University of Miami – Graduate School*  
 Amount: $500.00  
 
-**Graduate Student Travel Support** (2024)  
+**Graduate Student Travel Support** (2025)  
 *University of Miami – Graduate School*  
 Amount: $1,000.00  
+
+**American Studies Fellowship** (2025)  
+*University of Miami – Graduate School*  
+Amount: $4,300.00  
+
+**Max and Peggy Kriloff Student Travel Scholarship** (2023)  
+*University of Miami – Graduate School*  
+Amount: $500.00  
+
+**Comparative Literature Fellow (Full Merit Scholarship)** (2020)  
+*Dartmouth College – Graduate School*  
+Amount: $50,000.00  
+
+**Phi Beta Kappa** (2017)  
+*University of Virginia*  
+
+**Robert M. Burgess Memorial Scholar** (2016)  
+*University of Virginia*  
+Amount: $10,000.00  
+
+**Raven Society** (2016)  
+*University of Virginia*  
 
 ---
 
@@ -58,7 +74,7 @@ Amount: $1,000.00
 
 ### Digital Scholarship
 
-1. Raul Martin, Elizabeth Cornick, and Pathak, Prishanti "Listening in/to South Florida". 2025. [https://rm4-25.github.io/FL-Sounds2/](https://rm4-25.github.io/FL-Sounds2/)
+1. Cornick, Elizabeth "Listening in/to South Florida". 2025. [https://rm4-25.github.io/FL-Sounds2/](https://rm4-25.github.io/FL-Sounds2/)
 
 ### Manuscripts Under Review
 
@@ -72,62 +88,30 @@ Amount: $1,000.00
 
 **Instructor**
 
-1. **Digital Literacy Through Cultural and Literary Topics in Spanish** (SPA 410/MLL 410) — Fall 2025
-    - Co-taught with Dr. Susanna Allés-Torrent
+1. **The Sixties** (AMS 301) — Spring 2026
+    - Supervised by Dr. Christine Arce (American Studies Fellowship)
 
-2. **Basic Spanish I** (SPA 101) — Spring 2025
+2. **American Cities: From Space to Place in the Twentieth Century** (AMS 101) — Fall 2025
+    - Supervised by Dr. Christine Arce (American Studies Fellowship)
 
-3. **Queer Studies** (GSS 305) — Fall 2024
-    - Co-taught with Dr. Steven Butterman
+3. **First-Year Writing II** (WRS 106) — Spring 2025
 
-4. **Intermediate Portuguese I** (POR 201) — Spring 2024
+4. **First-Year Writing I** (WRS 105) — Fall 2024
 
-5. **Beginning Portuguese for Spanish Speakers** (POR 105) — Fall 2023
+
+
+### Dartmouth College
+
+**Teaching Assistant**
+
+1. **Read the World** (COLT 101) — Fall  2020
+    - Supervised by Dr. Dennis Washburn
 
 
 **Mentored Teaching**
 
-1. **Queer Studies** (SPA 330) — Spring 2024
-    - Supervised by Dr. Steven Butterman
-
-2. **Topics in Gender and Sexuality** (GSS 305) — Fall 2023
-    - Supervised by Dr. Gema Pérez-Sánchez
-
-3. **Introduction to Gender and Sexuality Studies** (GSS 202) — Fall 2023
-    - Supervised by Dr. Steven Butterman
-
-
-**Course Research Assistant**
-
-1. **LGBTQIA+ Brazil: Queering & Querying the Paradise of Paradox** (POR 699) — Spring 2023
-    - Supervised by Dr. Steven Butterman
-
-2. **Contemporary Brazilian Film: From Cinema Novo to Cinema Novíssimo** (POR 699) — Fall 2022
-    - Supervised by Dr. Steven Butterman
-
-
-
-### Federal University of Rio Grande do Sul
-
-**Course Research Assistant**
-
-1. **Diversity and Human Development** — 2022
-    - Supervised by Dr. Adolfo Pizzinato
-
-2. **Psychology Applied to Health Sciences** — 2022
-    - Supervised by Dr. Adolfo Pizzinato
-
-
-
-### Federal University of Health Sciences of Porto Alegre
-
-**Course Research Assistant**
-
-1. **Developmental Psychology I** — 2018–2021
-    - Supervised by Dr. Daniela Centenaro Levandowski
-
-2. **Developmental Psychology II** — 2018–2021
-    - Supervised by Dr. Daniela Centenaro Levandowski
+1. **American and British Poetry** (ENG 400) — Spring 2021
+    - Supervised by Dr. Melissa Zeiger
 
 
 
@@ -317,17 +301,11 @@ Supervisor: Dr. Daniela Centenaro Levandowski
 
 ## Languages
 
-**Portuguese**: Native
+**English**: Native
 
-**Pajubá**: Advanced
-
-**English**: Advanced
-
-**Spanish**: Advanced
-
-**French**: Reading Proficiency
+**Spanish**: Upper-Intermediate
 
 ---
 
-*Last updated: February 2026*
+*Last updated: March 2026*
 
