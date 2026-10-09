@@ -8,6 +8,7 @@ author_profile: true
 ## Digital Scholarship
 
 1. Cornick, Elizabeth "Listening in/to South Florida". 2025. [https://rm4-25.github.io/FL-Sounds2/](https://rm4-25.github.io/FL-Sounds2/)
+2. Testing
 
 ## Manuscripts Under Review
 
