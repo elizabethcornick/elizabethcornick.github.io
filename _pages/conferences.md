@@ -7,7 +7,7 @@ author_profile: true
 
 ## Graduate Presentations
 
-"The Poet is Present: Marico Carmona’s Bodily Presence in Poetry Slams as an Strategy Towards Inclusive Language in Spanish." *LASA 2025: Poner el cuerpo en Latinx America*, April 2025, Latin American Studies Association, San Francisco, CA, USA.
+"Narrative Interventions in Small Axe: Talkin’ About a Revolution.” Society for Cinema and Media Studies: Chicago, Illinois, March 27, 2026.
 
 "Brazilian Funk in Pajubá: How Travesti Funkeiras Utilize Cryptolects for Collective Enunciation." *Harvard University’s Graduate Music Forum Conference: TRANS\*Media*, March 2025, Harvard University, Cambridge, MA, USA.
 
