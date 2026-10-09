@@ -74,7 +74,7 @@ Amount: $10,000.00
 
 ### Digital Scholarship
 
-1. Cornick, Elizabeth "Listening in/to South Florida". 2025. [https://rm4-25.github.io/FL-Sounds2/](https://rm4-25.github.io/FL-Sounds2/)
+1. Cornick, Elizabeth "Listening in/to South Florida". 2025. [https://rm4-25.github.io/lsf_3/](https://rm4-25.github.io/lsf_3/)
 
 ### Manuscripts Under Review
 
