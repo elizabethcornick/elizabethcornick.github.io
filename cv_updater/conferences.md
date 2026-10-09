@@ -7,7 +7,11 @@ author_profile: true
 
 ## Graduate Presentations
 
-"The Poet is Present: Marico Carmona’s Bodily Presence in Poetry Slams as an Strategy Towards Inclusive Language in Spanish." *LASA 2025: Poner el cuerpo en Latinx America*, April 2025, Latin American Studies Association, San Francisco, CA, USA.
+"Innovative Archival Strategies for Marginalized Linguistic Communities: The B/Pajubá Digital Archive." *Annual Yale Bouchet Conference on Graduate Education: Historic Milestones and Future Directions: Innovative Strategies to Empower the Next Generation of Scholars (22nd)*, April 2026, Edward Alexander Bouchet Graduate Honor Society, Yale University, New Haven, CN, USA.
+
+"Workshop: Archiving from the Queer South: Queer Zines and Digital Publishing in the Humanities." *67th Annual Society for Cinema and Media Studies Conference*, March 2026, Society for Cinema and Media Studies, Chicago, IL, USA. With Alexandra Arana Blas.
+
+"The Poet is Present: Marico Carmona’s Bodily Presence in Poetry Slams as a Strategy Towards Inclusive Language in Spanish." *Latin 2025: Poner el cuerpo en Latinx America*, April 2025, Latin American Studies Association, San Francisco, CA, USA.
 
 "Brazilian Funk in Pajubá: How Travesti Funkeiras Utilize Cryptolects for Collective Enunciation." *Harvard University’s Graduate Music Forum Conference: TRANS\*Media*, March 2025, Harvard University, Cambridge, MA, USA.
 
@@ -21,7 +25,7 @@ author_profile: true
 
 "What is Queer About Queer Cinema: Queering Speculative Fabulation." *Graduate and Postdoctoral Research Symposium (Fifth Annual)*, March 2023, University of Miami, Miami, FL, USA.
 
-"Machorras, Viados, and Sapas: Post-feminism and Furry alliances in Latin America and Global North." *Department of Modern Languages and Literatures Graduate Conference: Transcultural Expressions: Conflict, Identity, And Revitalization In Multicultural Spheres*, March 2023, University of Miami, Miami, FL, USA.
+"Machorras, Viados, and Sapas: Post-feminism and Furry alliances in Latin America and the Global North." *Department of Modern Languages and Literatures Graduate Conference: Transcultural Expressions: Conflict, Identity, And Revitalization In Multicultural Spheres*, March 2023, University of Miami, Miami, FL, USA.
 
 ## Undergraduate Presentations
 

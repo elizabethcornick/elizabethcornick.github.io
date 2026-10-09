@@ -10,6 +10,7 @@ author_profile: true
 
 **University of Miami**
 
+- Basic Spanish I – Online (SPA 101) — Summer 2026
 - Digital Literacy Through Cultural and Literary Topics in Spanish (SPA 410/MLL 410) — Fall 2025  
   *(Co-taught with Dr. Susanna Allés-Torrent)*
 - Basic Spanish I (SPA 101) — Spring 2025
@@ -22,9 +23,9 @@ author_profile: true
 
 **University of Miami**
 
-- Queer Studies (SPA 330) — Spring 2024  
+- Queer Studies (GSS 305) — Spring 2024  
   *Supervised by Dr. Steven Butterman*
-- Topics in Gender and Sexuality (GSS 305) — Fall 2023  
+- Topics in Gender and Sexuality (SPA 330) — Fall 2023  
   *Supervised by Dr. Gema Pérez-Sánchez*
 - Introduction to Gender and Sexuality Studies (GSS 202) — Fall 2023  
   *Supervised by Dr. Steven Butterman*
@@ -33,9 +34,9 @@ author_profile: true
 
 **University of Miami**
 
-- LGBTQIA+ Brazil: Queering & Querying the Paradise of Paradox (POR 699) — Spring 2023  
+- LGBTQIA+ Brazil: Queering & Querying the Paradise of Paradox (POR 322) — Spring 2023  
   *Supervised by Dr. Steven Butterman*
-- Contemporary Brazilian Film: From Cinema Novo to Cinema Novíssimo (POR 699) — Fall 2022  
+- Contemporary Brazilian Film: From Cinema Novo to Cinema Novíssimo (POR 322) — Fall 2022  
   *Supervised by Dr. Steven Butterman*
 
 **Federal University of Rio Grande do Sul**
@@ -44,6 +45,8 @@ author_profile: true
   *Supervised by Dr. Adolfo Pizzinato*
 - Psychology Applied to Health Sciences — 2022  
   *Supervised by Dr. Adolfo Pizzinato*
+
+## Undergraduate Course Research Assistant
 
 **Federal University of Health Sciences of Porto Alegre**
 
