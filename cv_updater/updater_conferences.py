@@ -19,7 +19,7 @@ from calendar import month_name
 # Config
 # ----------------------------
 SHEET_NAME = "Conferences"
-URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vS4TyMkL-aPWhYseDOToCruWUmoiM72tPAzGWvb_DauEtXZZxuHy3AVXFXAQ6DbEuU-T5S5yS9lt2xS/pub?output=ods"
+URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSiegYK05z5yasH1GQTJFOCZGCfmBVFguqUkRw_9FeE55f5snDK2soe0OJnNomaDza_EQP4K8G_LtgB/pub?output=ods"
 OUTPUT_FILE = "conferences.md"
 
 # Roles to include + order (Graduate first, then Undergraduate)

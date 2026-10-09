@@ -51,7 +51,7 @@ def read_data_source():
     
 
     # Use fixed Google Sheets ODS URL
-    url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vS4TyMkL-aPWhYseDOToCruWUmoiM72tPAzGWvb_DauEtXZZxuHy3AVXFXAQ6DbEuU-T5S5yS9lt2xS/pub?output=ods"
+    url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSiegYK05z5yasH1GQTJFOCZGCfmBVFguqUkRw_9FeE55f5snDK2soe0OJnNomaDza_EQP4K8G_LtgB/pub?output=ods"
     
     # Test URL access first
     if not test_url_access(url):

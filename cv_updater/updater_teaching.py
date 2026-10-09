@@ -466,7 +466,7 @@ def main():
     Main function to generate teaching CV - safe execution with comprehensive error handling
     """
     # URL of the ODS file
-    url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vS4TyMkL-aPWhYseDOToCruWUmoiM72tPAzGWvb_DauEtXZZxuHy3AVXFXAQ6DbEuU-T5S5yS9lt2xS/pub?output=ods"
+    url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSiegYK05z5yasH1GQTJFOCZGCfmBVFguqUkRw_9FeE55f5snDK2soe0OJnNomaDza_EQP4K8G_LtgB/pub?output=ods"
     
     print("🔄 Starting Teaching CV generation...")
     print("📥 Downloading and reading spreadsheet...")
