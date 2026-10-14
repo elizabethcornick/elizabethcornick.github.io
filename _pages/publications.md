@@ -9,7 +9,7 @@ author_profile: true
 
 1. Martin, Raul, and Rubio, Kathy "Listening in/to South Florida". 2025. [https://rm4-25.github.io/lsf_3/](https://rm4-25.github.io/lsf_3/)
 
-2. Cornick, Elizabeth "Hurston Navigating Florida". 2023. [https://storymaps.arcgis.com/stories/97428386f9f840d182578d08b60fa269](https://storymaps.arcgis.com/stories/97428386f9f840d182578d08b60fa269)
+2. Cornick, Elizabeth "Navigating Hurston's Florida". 2023. [https://storymaps.arcgis.com/stories/97428386f9f840d182578d08b60fa269](https://storymaps.arcgis.com/stories/97428386f9f840d182578d08b60fa269)
 
 ## Manuscripts Under Review
 
