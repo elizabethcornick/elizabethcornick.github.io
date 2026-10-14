@@ -10,10 +10,9 @@ author_profile: true
 
 **University of Miami**
 
-- The Sixties (AMS 301) — Spring 2026  
-  *Supervised by Dr. Christine Arce (American Studies Fellowship)*
-- American Cities: From Space to Place in the Twentieth Century (AMS 101) — Fall 2025  
-  *Supervised by Dr. Christine Arce (American Studies Fellowship)*
+- The Sixties (AMS 301) — Spring 2026
+- Narratives of War, Peace and Memory in the 1960s (AMS 101) — Fall 2026
+- American Cities: From Space to Place in the Twentieth Century (AMS 101) — Fall 2025
 - First-Year Writing II (WRS 106) — Spring 2025
 - First-Year Writing I (WRS 105) — Fall 2024
 

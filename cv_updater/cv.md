@@ -74,7 +74,7 @@ Amount: $10,000.00
 
 ### Digital Scholarship
 
-1. Cornick, Elizabeth "Listening in/to South Florida". 2025. [https://rm4-25.github.io/lsf_3/](https://rm4-25.github.io/lsf_3/)
+1. Elizabeth Cornick,  "Listening in/to South Florida". 2025. [https://rm4-25.github.io/lsf_3/](https://rm4-25.github.io/lsf_3/)
 
 ### Manuscripts Under Review
 
@@ -88,15 +88,15 @@ Amount: $10,000.00
 
 **Instructor**
 
-1. **The Sixties** (AMS 301) — Spring 2026
-    - Supervised by Dr. Christine Arce (American Studies Fellowship)
+1. **Narratives of War, Peace and Memory in the 1960s** (AMS 101) — Fall 2026
 
-2. **American Cities: From Space to Place in the Twentieth Century** (AMS 101) — Fall 2025
-    - Supervised by Dr. Christine Arce (American Studies Fellowship)
+2. **The Sixties** (AMS 301) — Spring 2026
 
-3. **First-Year Writing II** (WRS 106) — Spring 2025
+3. **American Cities: From Space to Place in the Twentieth Century** (AMS 101) — Fall 2025
 
-4. **First-Year Writing I** (WRS 105) — Fall 2024
+4. **First-Year Writing II** (WRS 106) — Spring 2025
+
+5. **First-Year Writing I** (WRS 105) — Fall 2024
 
 
 
@@ -120,6 +120,10 @@ Amount: $10,000.00
 ## Conference Presentations
 
 ### Graduate Presentations
+
+"Listening in/to South Florida Workshop." *America 250 & Florida Digital Humanities Consortium 2026 Conference*, October 2026, Florida Digital Humanities, St. Petersburg, IL, USA. With Raul Martin and Prishanti Pathak.
+
+"Narrative Interventions in Small Axe: Talkin’ About a Revolution." *Society for Cinema and Media Studies Conference*, March 2026, Society for Cinema and Media Studies, Chicago, IL, USA.
 
 "Hurston’s Florida: Mapping Black Mobility and Literature." *ZORA! Academic Festival*, January 2026, ZORA! Festival Organization, Eatonville, FL, USA.
 
