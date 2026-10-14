@@ -34,7 +34,7 @@ geometry: "margin=1in"
 
 ## Awards and Honors
 
-**American Studies Fellowship** (2026)  
+**American Studies Teaching Fellowship** (2026)  
 *University of Miami – Graduate School*  
 Amount: $4,300.00  
 
@@ -46,7 +46,7 @@ Amount: $500.00
 *University of Miami – Graduate School*  
 Amount: $1,000.00  
 
-**American Studies Fellowship** (2025)  
+**American Studies Teaching Fellowship** (2025)  
 *University of Miami – Graduate School*  
 Amount: $4,300.00  
 
@@ -65,7 +65,7 @@ Amount: $50,000.00
 *University of Virginia*  
 Amount: $10,000.00  
 
-**Raven Society** (2016)  
+**The Raven Society** (2016)  
 *University of Virginia*  
 
 ---
@@ -74,7 +74,9 @@ Amount: $10,000.00
 
 ### Digital Scholarship
 
-1. Elizabeth Cornick,  "Listening in/to South Florida". 2025. [https://rm4-25.github.io/lsf_3/](https://rm4-25.github.io/lsf_3/)
+1. Martin, Raul, and Rubio, Kathy "Listening in/to South Florida". 2025. [https://rm4-25.github.io/lsf_3/](https://rm4-25.github.io/lsf_3/)
+
+2. Cornick, Elizabeth "Hurston Navigating Florida". 2023. [https://storymaps.arcgis.com/stories/97428386f9f840d182578d08b60fa269](https://storymaps.arcgis.com/stories/97428386f9f840d182578d08b60fa269)
 
 ### Manuscripts Under Review
 
